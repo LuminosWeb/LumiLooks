@@ -108,7 +108,7 @@ branding/            Logo, icônes d’application et favicons (16 → 512 px, .
 ### Publier une version
 
 1. Mettez à jour la version dans `package.json`, `src-tauri/tauri.conf.json` et `src-tauri/Cargo.toml`.
-2. Poussez une étiquette : `git tag v2.0.0 && git push origin v2.0.0`.
+2. Poussez une étiquette (`git tag v2.0.0 && git push origin v2.0.0`) ou lancez **Actions → Build & release → Run workflow** : l’étiquette `v<version>` est alors créée automatiquement.
 3. Le workflow **Build & release** compile Windows x64, macOS arm64, macOS x64 et Linux (.deb + AppImage), puis publie les fichiers et `SHA256SUMS.txt` dans une Release GitHub. Copiez-les ensuite sur [lumilooks.luminosweb.com](https://lumilooks.luminosweb.com).
 
 ## Licences et crédits
