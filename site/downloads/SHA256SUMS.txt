@@ -1,0 +1,5 @@
+da8bb57d353a1bc6188f8cb9a4b3441a7b8f2d754288e1ffe1d5ebc5bca7a8ad  LumiLooks-2.0.0-Setup.exe
+6e544e7ebbbfb19ee7efe36f76fed08909f3f4e15cc84a8bdd36e1f5f5dee922  LumiLooks-2.0.0-linux-x86_64.AppImage
+3a81d2d19a4058d27d36ffba92d0df8d20cbe237b8c26ec7bdfad9dc67982ff7  LumiLooks-2.0.0-macos-arm64.zip
+010e09eb9a87c03c9130deb3434f7ff6adde718dc03305bce98c45b1acf8a8a7  LumiLooks-2.0.0-macos-x64.zip
+b3e66f257ff713ad742a25096f1fe5324dc4cee648874b747f7e17269315290e  lumilooks_2.0.0_amd64.deb

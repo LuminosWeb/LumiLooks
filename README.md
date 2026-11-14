@@ -116,6 +116,7 @@ src/                 Interface React + TypeScript
   engine/            Aperçu WebGL, zoom, vignettes, lecture, historique
   lib/               Pipeline couleur, rendu WebGL, géométrie, formats, corrections .cube/.lumilook, packs LUT
   state/             État (zustand) et actions
+site/                Site lumilooks.luminosweb.com (statique, voir site/README.md)
 src-tauri/           Backend Rust : médias, serveur local, FFmpeg, export vidéo, images/PDF, projets
 public/assets/       Polices, logos, packs LUT compressés (.llut) et licences
 scripts/             Icônes, packs LUT, téléchargement de FFmpeg

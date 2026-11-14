@@ -14,3 +14,6 @@ playwright-report/
 .DS_Store
 Thumbs.db
 _old-electron-1.6.2/
+# Installateurs copiés dans le site au moment de la mise en ligne (ils sont dans les Releases)
+site/downloads/*
+!site/downloads/SHA256SUMS.txt
