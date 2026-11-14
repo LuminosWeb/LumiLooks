@@ -15,6 +15,24 @@
 
 ---
 
+## Aperçu
+
+<p align="center">
+  <img src="docs/screenshots/photo.webp" alt="LumiLooks : photo du lac de Braies étalonnée avec le look Kodak Portra 400, comparaison avant / après" width="900">
+  <br><em>Photo : un des 70 looks (ici Kodak Portra 400), comparaison avant / après et réglages à droite.</em>
+</p>
+
+<table>
+  <tr>
+    <td width="50%"><img src="docs/screenshots/video.webp" alt="Montage d’une vidéo dans LumiLooks : bande d’images, points d’entrée et de sortie, vitesse et volume"></td>
+    <td width="50%"><img src="docs/screenshots/export-video.webp" alt="Export vidéo de LumiLooks : format, résolution, débit en kbit/s, encodage processeur ou carte graphique, taille estimée"></td>
+  </tr>
+  <tr>
+    <td align="center"><em>Vidéo : onglet Montage, découpe, vitesse et volume.</em></td>
+    <td align="center"><em>Export vidéo : débit en kbit/s, taille estimée, CPU ou GPU.</em></td>
+  </tr>
+</table>
+
 ## Télécharger
 
 Les installateurs officiels sont disponibles sur **[lumilooks.luminosweb.com](https://lumilooks.luminosweb.com)** (et dans les [Releases](../../releases) de ce dépôt).

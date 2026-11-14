@@ -268,8 +268,9 @@ export async function createFilmstrip(file: MediaFile) {
     const canvas = document.createElement('canvas'); canvas.width = 160; canvas.height = 90;
     const ctx = canvas.getContext('2d')!, frames: string[] = [];
     for (let i = 0; i < 10; i++) {
-      const time = Math.min(Math.max(0, file.duration - 0.05), (file.duration * i) / 9);
-      if (Math.abs(video.currentTime - time) > 0.005) { const seeked = wait('seeked'); video.currentTime = time; await seeked; }
+      // Always seek, even for the first frame: right after « loadeddata » some engines (WebKitGTK) still paint black.
+      const time = Math.min(Math.max(0, file.duration - 0.05), Math.max(Math.min(0.04, file.duration / 20), (file.duration * i) / 9));
+      const seeked = wait('seeked'); video.currentTime = time; await seeked;
       const scale = Math.max(160 / video.videoWidth, 90 / video.videoHeight);
       ctx.drawImage(video, (160 - video.videoWidth * scale) / 2, (90 - video.videoHeight * scale) / 2, video.videoWidth * scale, video.videoHeight * scale);
       frames.push(canvas.toDataURL('image/jpeg', 0.72));
