@@ -1,0 +1,947 @@
+[
+  {
+    "id": "daedal-teal-orange",
+    "name": "Teal & orange",
+    "category": "DAEDAL Cinematic",
+    "description": "Ombres cyan et lumière chaude.",
+    "pack": "DAEDAL Cinematic",
+    "settings": {
+      "intensity": 80
+    },
+    "lutName": "DAEDAL_01_Teal_Orange.cube",
+    "lutPath": "assets/lut-packs/daedal-teal-orange.llut",
+    "lutSize": 33,
+    "lutEncoding": "llut-v1",
+    "lutTableSha256": "f4b036bfe12e6d565c44b4511dbf649ee5191d70a90a2b5b105297f638d1a03d",
+    "lutPackedSha256": "803703b8a9161e514d747226c8e83903b769298952abaf8a05bb663916f29e17"
+  },
+  {
+    "id": "daedal-blockbuster",
+    "name": "Blockbuster",
+    "category": "DAEDAL Cinematic",
+    "description": "Contraste affirmé et ambiance cinéma.",
+    "pack": "DAEDAL Cinematic",
+    "settings": {
+      "intensity": 80
+    },
+    "lutName": "DAEDAL_02_Blockbuster.cube",
+    "lutPath": "assets/lut-packs/daedal-blockbuster.llut",
+    "lutSize": 33,
+    "lutEncoding": "llut-v1",
+    "lutTableSha256": "12e1087fcc80a8f73542d1f6ef14381dd8ab719021d77f98f2adf503903531d5",
+    "lutPackedSha256": "5896b7bbbcaf18d09b994b78f8dc07fdac7d984be3553fcdc395ba32c2a00a4d"
+  },
+  {
+    "id": "daedal-nordic",
+    "name": "Nordic",
+    "category": "DAEDAL Cinematic",
+    "description": "Une lumière froide et des couleurs retenues.",
+    "pack": "DAEDAL Cinematic",
+    "settings": {
+      "intensity": 80
+    },
+    "lutName": "DAEDAL_03_Nordic.cube",
+    "lutPath": "assets/lut-packs/daedal-nordic.llut",
+    "lutSize": 33,
+    "lutEncoding": "llut-v1",
+    "lutTableSha256": "15fecf29c7046d2c9588ebcf078d3c6c69fd8f2ade14892933be9b6c48c000cd",
+    "lutPackedSha256": "597f17e644f99b4eae93c28e3951963ba3dd5e860b9e201e75fff05ab87d831d"
+  },
+  {
+    "id": "daedal-desert",
+    "name": "Desert",
+    "category": "DAEDAL Cinematic",
+    "description": "Des tons chauds et minéraux.",
+    "pack": "DAEDAL Cinematic",
+    "settings": {
+      "intensity": 80
+    },
+    "lutName": "DAEDAL_04_Desert.cube",
+    "lutPath": "assets/lut-packs/daedal-desert.llut",
+    "lutSize": 33,
+    "lutEncoding": "llut-v1",
+    "lutTableSha256": "d9efbf50a786c2e6fd1c241276387f1ea67c3a0d6f20a9a0c09efe55c079951c",
+    "lutPackedSha256": "2be91c78833811fd18f356105ad6e95a95528a875e16c5f18a4eb920d2db0aed"
+  },
+  {
+    "id": "daedal-moody",
+    "name": "Moody",
+    "category": "DAEDAL Cinematic",
+    "description": "Une atmosphère dense et feutrée.",
+    "pack": "DAEDAL Cinematic",
+    "settings": {
+      "intensity": 80
+    },
+    "lutName": "DAEDAL_05_Moody.cube",
+    "lutPath": "assets/lut-packs/daedal-moody.llut",
+    "lutSize": 33,
+    "lutEncoding": "llut-v1",
+    "lutTableSha256": "a0524dfc044c3663388ae6dc103ca730dba917e4f2f2ed8cddb64eef9c91fcaf",
+    "lutPackedSha256": "5f6637b06857404720b57271d5fa349c4eb4c0b8fcbdb2262dc9c4cf2789d4e2"
+  },
+  {
+    "id": "daedal-bleach-bypass",
+    "name": "Bleach bypass",
+    "category": "DAEDAL Cinematic",
+    "description": "Contraste argentique et couleurs désaturées.",
+    "pack": "DAEDAL Cinematic",
+    "settings": {
+      "intensity": 80
+    },
+    "lutName": "DAEDAL_06_Bleach_Bypass.cube",
+    "lutPath": "assets/lut-packs/daedal-bleach-bypass.llut",
+    "lutSize": 33,
+    "lutEncoding": "llut-v1",
+    "lutTableSha256": "6dd3fe0ca08ec93d5c0c36723199afd41ae314f26e824bf58fe8ac07eaf997bc",
+    "lutPackedSha256": "a23fda376a6491c4cc9f7b6c1c37b98c73bc8e23e0563885b8564fb575577244"
+  },
+  {
+    "id": "daedal-night-city",
+    "name": "Night city",
+    "category": "DAEDAL Cinematic",
+    "description": "Couleurs nocturnes et reflets urbains.",
+    "pack": "DAEDAL Cinematic",
+    "settings": {
+      "intensity": 80
+    },
+    "lutName": "DAEDAL_07_Night_City.cube",
+    "lutPath": "assets/lut-packs/daedal-night-city.llut",
+    "lutSize": 33,
+    "lutEncoding": "llut-v1",
+    "lutTableSha256": "658955ef5f9cebfa9466e05611d80965a184c4819f5237c42a9ed14151941eed",
+    "lutPackedSha256": "113575ad0affdd09d6b1bb5f7885d97b3c172b9ef72515696e046be47c8cf9f4"
+  },
+  {
+    "id": "daedal-forest",
+    "name": "Forest",
+    "category": "DAEDAL Cinematic",
+    "description": "Des verts profonds et naturels.",
+    "pack": "DAEDAL Cinematic",
+    "settings": {
+      "intensity": 80
+    },
+    "lutName": "DAEDAL_08_Forest.cube",
+    "lutPath": "assets/lut-packs/daedal-forest.llut",
+    "lutSize": 33,
+    "lutEncoding": "llut-v1",
+    "lutTableSha256": "41739d6988af5907cfcc7a599617705c4eca738feb99fadebe4e38b129666f29",
+    "lutPackedSha256": "bcb7bb6445a4379ba2a85b54b3b2dff4a9fd2f8f07944b509631213a2902504d"
+  },
+  {
+    "id": "film-agfa-precisa-100",
+    "name": "Agfa Precisa 100",
+    "category": "Film argentique",
+    "pack": "Film argentique · HaldCLUT",
+    "description": "Simulation argentique sRGB · collection RawTherapee / cedeber.",
+    "settings": {
+      "intensity": 100
+    },
+    "lutName": "Agfa Precisa 100 · HaldCLUT",
+    "lutPath": "assets/lut-packs/film-agfa-precisa-100.llut",
+    "lutSize": 33,
+    "source": "https://raw.githubusercontent.com/cedeber/hald-clut/3b3180f82d4dcea1e6e8c5648473539a910d7f49/HaldCLUT/Film%20Simulation/Color/Agfa/Agfa%20Precisa%20100.png",
+    "sourceCommit": "3b3180f82d4dcea1e6e8c5648473539a910d7f49",
+    "license": "CC-BY-SA-4.0",
+    "lutEncoding": "llut-v1",
+    "lutTableSha256": "2afa2dc4af6f75eaa1a7300d4e8d964ef6d7d798fe655c776dfe429795f1cd8e",
+    "lutPackedSha256": "9bf1e87af5f66ea0101ae97f20d9d99a5dce5881c7d97a7c2aba80fa1582944e"
+  },
+  {
+    "id": "film-agfa-vista-200",
+    "name": "Agfa Vista 200",
+    "category": "Film argentique",
+    "pack": "Film argentique · HaldCLUT",
+    "description": "Simulation argentique sRGB · collection RawTherapee / cedeber.",
+    "settings": {
+      "intensity": 100
+    },
+    "lutName": "Agfa Vista 200 · HaldCLUT",
+    "lutPath": "assets/lut-packs/film-agfa-vista-200.llut",
+    "lutSize": 33,
+    "source": "https://raw.githubusercontent.com/cedeber/hald-clut/3b3180f82d4dcea1e6e8c5648473539a910d7f49/HaldCLUT/Film%20Simulation/Color/Agfa/Agfa%20Vista%20200.png",
+    "sourceCommit": "3b3180f82d4dcea1e6e8c5648473539a910d7f49",
+    "license": "CC-BY-SA-4.0",
+    "lutEncoding": "llut-v1",
+    "lutTableSha256": "2fd7fe4a4e644d025c82edb6023fe91ec16ca31720cfa967987750b98993d427",
+    "lutPackedSha256": "6cf94d6ce9ede5356dbbe3fefdabd25b6851405ff976a268b89ca7403741b0a3"
+  },
+  {
+    "id": "film-fuji-astia-100f",
+    "name": "Fuji Astia 100F",
+    "category": "Film argentique",
+    "pack": "Film argentique · HaldCLUT",
+    "description": "Simulation argentique sRGB · collection RawTherapee / cedeber.",
+    "settings": {
+      "intensity": 100
+    },
+    "lutName": "Fuji Astia 100F · HaldCLUT",
+    "lutPath": "assets/lut-packs/film-fuji-astia-100f.llut",
+    "lutSize": 33,
+    "source": "https://raw.githubusercontent.com/cedeber/hald-clut/3b3180f82d4dcea1e6e8c5648473539a910d7f49/HaldCLUT/Film%20Simulation/Color/Fuji/Fuji%20Astia%20100F.png",
+    "sourceCommit": "3b3180f82d4dcea1e6e8c5648473539a910d7f49",
+    "license": "CC-BY-SA-4.0",
+    "lutEncoding": "llut-v1",
+    "lutTableSha256": "8e175ea3401a40d33a7e4653ee4ed17f981f0b4b1e44e873bc319fe90598248c",
+    "lutPackedSha256": "27f58fa819d58cafd196b88df23a1e095afc2a09a736d773a5d06b8f44c3fd0e"
+  },
+  {
+    "id": "film-fuji-provia-100f",
+    "name": "Fuji Provia 100F",
+    "category": "Film argentique",
+    "pack": "Film argentique · HaldCLUT",
+    "description": "Simulation argentique sRGB · collection RawTherapee / cedeber.",
+    "settings": {
+      "intensity": 100
+    },
+    "lutName": "Fuji Provia 100F · HaldCLUT",
+    "lutPath": "assets/lut-packs/film-fuji-provia-100f.llut",
+    "lutSize": 33,
+    "source": "https://raw.githubusercontent.com/cedeber/hald-clut/3b3180f82d4dcea1e6e8c5648473539a910d7f49/HaldCLUT/Film%20Simulation/Color/Fuji/Fuji%20Provia%20100F.png",
+    "sourceCommit": "3b3180f82d4dcea1e6e8c5648473539a910d7f49",
+    "license": "CC-BY-SA-4.0",
+    "lutEncoding": "llut-v1",
+    "lutTableSha256": "b255d557ec73f10eaeb4e33972328d9f2afaae1e893f20d6f6a9ce5a6b393c66",
+    "lutPackedSha256": "b99bad9c8e20070ba5693cbc52de11706130397e63988efd5282631b3755dcbe"
+  },
+  {
+    "id": "film-fuji-provia-400x",
+    "name": "Fuji Provia 400X",
+    "category": "Film argentique",
+    "pack": "Film argentique · HaldCLUT",
+    "description": "Simulation argentique sRGB · collection RawTherapee / cedeber.",
+    "settings": {
+      "intensity": 100
+    },
+    "lutName": "Fuji Provia 400X · HaldCLUT",
+    "lutPath": "assets/lut-packs/film-fuji-provia-400x.llut",
+    "lutSize": 33,
+    "source": "https://raw.githubusercontent.com/cedeber/hald-clut/3b3180f82d4dcea1e6e8c5648473539a910d7f49/HaldCLUT/Film%20Simulation/Color/Fuji/Fuji%20Provia%20400X.png",
+    "sourceCommit": "3b3180f82d4dcea1e6e8c5648473539a910d7f49",
+    "license": "CC-BY-SA-4.0",
+    "lutEncoding": "llut-v1",
+    "lutTableSha256": "b787cf9a9f1df9ed817c45ad968b3f8b4db7e22c58f543ec113143bb7b7d3e5f",
+    "lutPackedSha256": "3b74f6d207efffc66a3f2eb1db8d193dad90c4810b78537231105e8e04495795"
+  },
+  {
+    "id": "film-fuji-superia-200",
+    "name": "Fuji Superia 200",
+    "category": "Film argentique",
+    "pack": "Film argentique · HaldCLUT",
+    "description": "Simulation argentique sRGB · collection RawTherapee / cedeber.",
+    "settings": {
+      "intensity": 100
+    },
+    "lutName": "Fuji Superia 200 · HaldCLUT",
+    "lutPath": "assets/lut-packs/film-fuji-superia-200.llut",
+    "lutSize": 33,
+    "source": "https://raw.githubusercontent.com/cedeber/hald-clut/3b3180f82d4dcea1e6e8c5648473539a910d7f49/HaldCLUT/Film%20Simulation/Color/Fuji/Fuji%20Superia%20200.png",
+    "sourceCommit": "3b3180f82d4dcea1e6e8c5648473539a910d7f49",
+    "license": "CC-BY-SA-4.0",
+    "lutEncoding": "llut-v1",
+    "lutTableSha256": "3e6e8f576af036bf205429f8dd412b22c883f226fcc469ca96ef7715a665d1a5",
+    "lutPackedSha256": "a25b2b13c1520324484647fab005014b2c1c4548e680cc6c4da52eea97f2d3d4"
+  },
+  {
+    "id": "film-fuji-superia-reala-100",
+    "name": "Fuji Superia Reala 100",
+    "category": "Film argentique",
+    "pack": "Film argentique · HaldCLUT",
+    "description": "Simulation argentique sRGB · collection RawTherapee / cedeber.",
+    "settings": {
+      "intensity": 100
+    },
+    "lutName": "Fuji Superia Reala 100 · HaldCLUT",
+    "lutPath": "assets/lut-packs/film-fuji-superia-reala-100.llut",
+    "lutSize": 33,
+    "source": "https://raw.githubusercontent.com/cedeber/hald-clut/3b3180f82d4dcea1e6e8c5648473539a910d7f49/HaldCLUT/Film%20Simulation/Color/Fuji/Fuji%20Superia%20Reala%20100.png",
+    "sourceCommit": "3b3180f82d4dcea1e6e8c5648473539a910d7f49",
+    "license": "CC-BY-SA-4.0",
+    "lutEncoding": "llut-v1",
+    "lutTableSha256": "24297765c0b0756757669d4536c87b344a90eccbb192022541a625ec189da14a",
+    "lutPackedSha256": "299bef65741306aa641cbcb0fe22c4995bae351b286f929397227fef9c253967"
+  },
+  {
+    "id": "film-fuji-velvia-50",
+    "name": "Fuji Velvia 50",
+    "category": "Film argentique",
+    "pack": "Film argentique · HaldCLUT",
+    "description": "Simulation argentique sRGB · collection RawTherapee / cedeber.",
+    "settings": {
+      "intensity": 100
+    },
+    "lutName": "Fuji Velvia 50 · HaldCLUT",
+    "lutPath": "assets/lut-packs/film-fuji-velvia-50.llut",
+    "lutSize": 33,
+    "source": "https://raw.githubusercontent.com/cedeber/hald-clut/3b3180f82d4dcea1e6e8c5648473539a910d7f49/HaldCLUT/Film%20Simulation/Color/Fuji/Fuji%20Velvia%2050.png",
+    "sourceCommit": "3b3180f82d4dcea1e6e8c5648473539a910d7f49",
+    "license": "CC-BY-SA-4.0",
+    "lutEncoding": "llut-v1",
+    "lutTableSha256": "0ada5ff12e37ec6359c3748811e0c1f756158928886caa49d24051c98c08448e",
+    "lutPackedSha256": "1980af7ffa21836c13ef2165955096aa5672b8be5d8bc400c807397a1e9c27df"
+  },
+  {
+    "id": "film-kodak-ektar-100",
+    "name": "Kodak Ektar 100",
+    "category": "Film argentique",
+    "pack": "Film argentique · HaldCLUT",
+    "description": "Simulation argentique sRGB · collection RawTherapee / cedeber.",
+    "settings": {
+      "intensity": 100
+    },
+    "lutName": "Kodak Ektar 100 · HaldCLUT",
+    "lutPath": "assets/lut-packs/film-kodak-ektar-100.llut",
+    "lutSize": 33,
+    "source": "https://raw.githubusercontent.com/cedeber/hald-clut/3b3180f82d4dcea1e6e8c5648473539a910d7f49/HaldCLUT/Film%20Simulation/Color/Kodak/Kodak%20Ektar%20100.png",
+    "sourceCommit": "3b3180f82d4dcea1e6e8c5648473539a910d7f49",
+    "license": "CC-BY-SA-4.0",
+    "lutEncoding": "llut-v1",
+    "lutTableSha256": "9a606690272cd7f5fb0bc6492ec32c39400aadec1de39306d5bde56c4eba2e79",
+    "lutPackedSha256": "0bc45bf97eb8e2976be513b1156af7034c732ecb1751ba1e68c817fdc874f8b5"
+  },
+  {
+    "id": "film-kodak-ektachrome-100-vs",
+    "name": "Kodak Ektachrome 100 VS",
+    "category": "Film argentique",
+    "pack": "Film argentique · HaldCLUT",
+    "description": "Simulation argentique sRGB · collection RawTherapee / cedeber.",
+    "settings": {
+      "intensity": 100
+    },
+    "lutName": "Kodak Ektachrome 100 VS · HaldCLUT",
+    "lutPath": "assets/lut-packs/film-kodak-ektachrome-100-vs.llut",
+    "lutSize": 33,
+    "source": "https://raw.githubusercontent.com/cedeber/hald-clut/3b3180f82d4dcea1e6e8c5648473539a910d7f49/HaldCLUT/Film%20Simulation/Color/Kodak/Kodak%20Ektachrome%20100%20VS.png",
+    "sourceCommit": "3b3180f82d4dcea1e6e8c5648473539a910d7f49",
+    "license": "CC-BY-SA-4.0",
+    "lutEncoding": "llut-v1",
+    "lutTableSha256": "edfeb97ed4ea968a960cf31d0dd0ac063f988f82ca8d2320765d55b35790bd57",
+    "lutPackedSha256": "4ac765b6b4363e6264dcd4bdbd351b4b3b54762916d70676767a0f133ca37097"
+  },
+  {
+    "id": "film-kodak-kodachrome-25",
+    "name": "Kodak Kodachrome 25",
+    "category": "Film argentique",
+    "pack": "Film argentique · HaldCLUT",
+    "description": "Simulation argentique sRGB · collection RawTherapee / cedeber.",
+    "settings": {
+      "intensity": 100
+    },
+    "lutName": "Kodak Kodachrome 25 · HaldCLUT",
+    "lutPath": "assets/lut-packs/film-kodak-kodachrome-25.llut",
+    "lutSize": 33,
+    "source": "https://raw.githubusercontent.com/cedeber/hald-clut/3b3180f82d4dcea1e6e8c5648473539a910d7f49/HaldCLUT/Film%20Simulation/Color/Kodak/Kodak%20Kodachrome%2025.png",
+    "sourceCommit": "3b3180f82d4dcea1e6e8c5648473539a910d7f49",
+    "license": "CC-BY-SA-4.0",
+    "lutEncoding": "llut-v1",
+    "lutTableSha256": "f7911e01ff7a8d0b92dc0a5a5ae3798c2e16d55c07523161b56c1a50d816386a",
+    "lutPackedSha256": "bb75f76896c621c6ea270a15915e59f0b89565a8a639542251651aaac8b6d58c"
+  },
+  {
+    "id": "film-kodak-kodachrome-64",
+    "name": "Kodak Kodachrome 64",
+    "category": "Film argentique",
+    "pack": "Film argentique · HaldCLUT",
+    "description": "Simulation argentique sRGB · collection RawTherapee / cedeber.",
+    "settings": {
+      "intensity": 100
+    },
+    "lutName": "Kodak Kodachrome 64 · HaldCLUT",
+    "lutPath": "assets/lut-packs/film-kodak-kodachrome-64.llut",
+    "lutSize": 33,
+    "source": "https://raw.githubusercontent.com/cedeber/hald-clut/3b3180f82d4dcea1e6e8c5648473539a910d7f49/HaldCLUT/Film%20Simulation/Color/Kodak/Kodak%20Kodachrome%2064.png",
+    "sourceCommit": "3b3180f82d4dcea1e6e8c5648473539a910d7f49",
+    "license": "CC-BY-SA-4.0",
+    "lutEncoding": "llut-v1",
+    "lutTableSha256": "729e595fe3a90b26789325324c079ca219678406e7627a19aee4e9c490f1c980",
+    "lutPackedSha256": "49356243d5ba1e0eab67a6f969bdd12669380e7b5b25228a2e9456b412bc2bbe"
+  },
+  {
+    "id": "film-kodak-portra-160-nc",
+    "name": "Kodak Portra 160 NC",
+    "category": "Film argentique",
+    "pack": "Film argentique · HaldCLUT",
+    "description": "Simulation argentique sRGB · collection RawTherapee / cedeber.",
+    "settings": {
+      "intensity": 100
+    },
+    "lutName": "Kodak Portra 160 NC · HaldCLUT",
+    "lutPath": "assets/lut-packs/film-kodak-portra-160-nc.llut",
+    "lutSize": 33,
+    "source": "https://raw.githubusercontent.com/cedeber/hald-clut/3b3180f82d4dcea1e6e8c5648473539a910d7f49/HaldCLUT/Film%20Simulation/Color/Kodak/Kodak%20Portra%20160%20NC%202.png",
+    "sourceCommit": "3b3180f82d4dcea1e6e8c5648473539a910d7f49",
+    "license": "CC-BY-SA-4.0",
+    "lutEncoding": "llut-v1",
+    "lutTableSha256": "9bac5572feb0972ee848b730e2a450504e6a0be79eee3e3517931216bdcf27a7",
+    "lutPackedSha256": "889bcf2d25a2c6e7a304e6e215406f9e28393c89ee86f19df6b6b43e9ee89fac"
+  },
+  {
+    "id": "film-kodak-portra-400",
+    "name": "Kodak Portra 400",
+    "category": "Film argentique",
+    "pack": "Film argentique · HaldCLUT",
+    "description": "Simulation argentique sRGB · collection RawTherapee / cedeber.",
+    "settings": {
+      "intensity": 100
+    },
+    "lutName": "Kodak Portra 400 · HaldCLUT",
+    "lutPath": "assets/lut-packs/film-kodak-portra-400.llut",
+    "lutSize": 33,
+    "source": "https://raw.githubusercontent.com/cedeber/hald-clut/3b3180f82d4dcea1e6e8c5648473539a910d7f49/HaldCLUT/Film%20Simulation/Color/Kodak/Kodak%20Portra%20400%202.png",
+    "sourceCommit": "3b3180f82d4dcea1e6e8c5648473539a910d7f49",
+    "license": "CC-BY-SA-4.0",
+    "lutEncoding": "llut-v1",
+    "lutTableSha256": "c68e9b606adfc6e8825ed0122ef8d9ed155ceffee7b852a1c84a1c70dab6210c",
+    "lutPackedSha256": "cfd54bb6ce229a1edcf7605c7670ab0f9c9ee62789548cf2848a610d8f442bd4"
+  },
+  {
+    "id": "film-kodak-portra-800",
+    "name": "Kodak Portra 800",
+    "category": "Film argentique",
+    "pack": "Film argentique · HaldCLUT",
+    "description": "Simulation argentique sRGB · collection RawTherapee / cedeber.",
+    "settings": {
+      "intensity": 100
+    },
+    "lutName": "Kodak Portra 800 · HaldCLUT",
+    "lutPath": "assets/lut-packs/film-kodak-portra-800.llut",
+    "lutSize": 33,
+    "source": "https://raw.githubusercontent.com/cedeber/hald-clut/3b3180f82d4dcea1e6e8c5648473539a910d7f49/HaldCLUT/Film%20Simulation/Color/Kodak/Kodak%20Portra%20800%202.png",
+    "sourceCommit": "3b3180f82d4dcea1e6e8c5648473539a910d7f49",
+    "license": "CC-BY-SA-4.0",
+    "lutEncoding": "llut-v1",
+    "lutTableSha256": "2b43b25a96163df7870181b3c4e4b7efbd405ad65a6a522d05bc089d58612138",
+    "lutPackedSha256": "2a51abc8240d46b97f0519ce892461fa363494f8fcf78b9ff57b18fde1405d4d"
+  },
+  {
+    "id": "film-kodak-elite-chrome-200",
+    "name": "Kodak Elite Chrome 200",
+    "category": "Film argentique",
+    "pack": "Film argentique · HaldCLUT",
+    "description": "Simulation argentique sRGB · collection RawTherapee / cedeber.",
+    "settings": {
+      "intensity": 100
+    },
+    "lutName": "Kodak Elite Chrome 200 · HaldCLUT",
+    "lutPath": "assets/lut-packs/film-kodak-elite-chrome-200.llut",
+    "lutSize": 33,
+    "source": "https://raw.githubusercontent.com/cedeber/hald-clut/3b3180f82d4dcea1e6e8c5648473539a910d7f49/HaldCLUT/Film%20Simulation/Color/Kodak/Kodak%20Elite%20Chrome%20200.png",
+    "sourceCommit": "3b3180f82d4dcea1e6e8c5648473539a910d7f49",
+    "license": "CC-BY-SA-4.0",
+    "lutEncoding": "llut-v1",
+    "lutTableSha256": "632e4673bbd69e1242463d2135cfec2ea1eeaeec7f539689e04684abeddb3eb2",
+    "lutPackedSha256": "310ae7585a70e7c9353f0159cd36803890c23714682ad0a3470471bfeec25c54"
+  },
+  {
+    "id": "film-kodak-elite-color-400",
+    "name": "Kodak Elite Color 400",
+    "category": "Film argentique",
+    "pack": "Film argentique · HaldCLUT",
+    "description": "Simulation argentique sRGB · collection RawTherapee / cedeber.",
+    "settings": {
+      "intensity": 100
+    },
+    "lutName": "Kodak Elite Color 400 · HaldCLUT",
+    "lutPath": "assets/lut-packs/film-kodak-elite-color-400.llut",
+    "lutSize": 33,
+    "source": "https://raw.githubusercontent.com/cedeber/hald-clut/3b3180f82d4dcea1e6e8c5648473539a910d7f49/HaldCLUT/Film%20Simulation/Color/Kodak/Kodak%20Elite%20Color%20400.png",
+    "sourceCommit": "3b3180f82d4dcea1e6e8c5648473539a910d7f49",
+    "license": "CC-BY-SA-4.0",
+    "lutEncoding": "llut-v1",
+    "lutTableSha256": "dc98e03accfbe32071b7db24d98b13a2553980b778962e583e482200c42f5996",
+    "lutPackedSha256": "6f41909999288e69f978d2b33df020bb10203e7c447de91868c890135c317ecb"
+  },
+  {
+    "id": "film-fuji-sensia-100",
+    "name": "Fuji Sensia 100",
+    "category": "Film argentique",
+    "pack": "Film argentique · HaldCLUT",
+    "description": "Simulation argentique sRGB · collection RawTherapee / cedeber.",
+    "settings": {
+      "intensity": 100
+    },
+    "lutName": "Fuji Sensia 100 · HaldCLUT",
+    "lutPath": "assets/lut-packs/film-fuji-sensia-100.llut",
+    "lutSize": 33,
+    "source": "https://raw.githubusercontent.com/cedeber/hald-clut/3b3180f82d4dcea1e6e8c5648473539a910d7f49/HaldCLUT/Film%20Simulation/Color/Fuji/Fuji%20Sensia%20100.png",
+    "sourceCommit": "3b3180f82d4dcea1e6e8c5648473539a910d7f49",
+    "license": "CC-BY-SA-4.0",
+    "lutEncoding": "llut-v1",
+    "lutTableSha256": "157ed3c2e2bce9b46f3efb8edf018d26ea79fc2107b120ee3212a9b7b306ea17",
+    "lutPackedSha256": "5706ab9f486882f8e478fb9a36179540830c18c2d8fa9b41a8657e851cf12f66"
+  },
+  {
+    "id": "film-agfa-apx-100",
+    "name": "Agfa APX 100",
+    "category": "Film argentique",
+    "pack": "Film argentique · HaldCLUT",
+    "description": "Simulation argentique sRGB · collection RawTherapee / cedeber.",
+    "settings": {
+      "intensity": 100
+    },
+    "lutName": "Agfa APX 100 · HaldCLUT",
+    "lutPath": "assets/lut-packs/film-agfa-apx-100.llut",
+    "lutSize": 33,
+    "source": "https://raw.githubusercontent.com/cedeber/hald-clut/3b3180f82d4dcea1e6e8c5648473539a910d7f49/HaldCLUT/Film%20Simulation/Black%20and%20White/Agfa/Agfa%20APX%20100.png",
+    "sourceCommit": "3b3180f82d4dcea1e6e8c5648473539a910d7f49",
+    "license": "CC-BY-SA-4.0",
+    "lutEncoding": "llut-v1",
+    "lutTableSha256": "ca9880b2aaa007949d086f65b7fb5d366895c077cf2966ed6329addb286c68d5",
+    "lutPackedSha256": "6624de35ed2d396b35d21df9bc64884aeffa280ef7d8aa77ec86fc681366a66f"
+  },
+  {
+    "id": "film-fuji-neopan-acros-100",
+    "name": "Fuji Neopan Acros 100",
+    "category": "Film argentique",
+    "pack": "Film argentique · HaldCLUT",
+    "description": "Simulation argentique sRGB · collection RawTherapee / cedeber.",
+    "settings": {
+      "intensity": 100
+    },
+    "lutName": "Fuji Neopan Acros 100 · HaldCLUT",
+    "lutPath": "assets/lut-packs/film-fuji-neopan-acros-100.llut",
+    "lutSize": 33,
+    "source": "https://raw.githubusercontent.com/cedeber/hald-clut/3b3180f82d4dcea1e6e8c5648473539a910d7f49/HaldCLUT/Film%20Simulation/Black%20and%20White/Fuji/Fuji%20Neopan%20Acros%20100.png",
+    "sourceCommit": "3b3180f82d4dcea1e6e8c5648473539a910d7f49",
+    "license": "CC-BY-SA-4.0",
+    "lutEncoding": "llut-v1",
+    "lutTableSha256": "4c44ae4c71afbc9757df6483cf1cafcdffe5dbf6f41b1ae71339f3b4cb9405af",
+    "lutPackedSha256": "59945cd03ef31f1d9628835b5c5a68339f8cdf72b6bedf3784676e3a387497df"
+  },
+  {
+    "id": "film-ilford-delta-100",
+    "name": "Ilford Delta 100",
+    "category": "Film argentique",
+    "pack": "Film argentique · HaldCLUT",
+    "description": "Simulation argentique sRGB · collection RawTherapee / cedeber.",
+    "settings": {
+      "intensity": 100
+    },
+    "lutName": "Ilford Delta 100 · HaldCLUT",
+    "lutPath": "assets/lut-packs/film-ilford-delta-100.llut",
+    "lutSize": 33,
+    "source": "https://raw.githubusercontent.com/cedeber/hald-clut/3b3180f82d4dcea1e6e8c5648473539a910d7f49/HaldCLUT/Film%20Simulation/Black%20and%20White/Ilford/Ilford%20Delta%20100.png",
+    "sourceCommit": "3b3180f82d4dcea1e6e8c5648473539a910d7f49",
+    "license": "CC-BY-SA-4.0",
+    "lutEncoding": "llut-v1",
+    "lutTableSha256": "ef16fc407378afff814d8888725137c9affdf4c922fd53f41332a0fa0427eb04",
+    "lutPackedSha256": "9101583087a9da15640cc55a14f889a8ede134ac089f5f457d182ed6409eb19c"
+  },
+  {
+    "id": "film-ilford-hp5-plus-400",
+    "name": "Ilford HP5 Plus 400",
+    "category": "Film argentique",
+    "pack": "Film argentique · HaldCLUT",
+    "description": "Simulation argentique sRGB · collection RawTherapee / cedeber.",
+    "settings": {
+      "intensity": 100
+    },
+    "lutName": "Ilford HP5 Plus 400 · HaldCLUT",
+    "lutPath": "assets/lut-packs/film-ilford-hp5-plus-400.llut",
+    "lutSize": 33,
+    "source": "https://raw.githubusercontent.com/cedeber/hald-clut/3b3180f82d4dcea1e6e8c5648473539a910d7f49/HaldCLUT/Film%20Simulation/Black%20and%20White/Ilford/Ilford%20HP5%20Plus%20400.png",
+    "sourceCommit": "3b3180f82d4dcea1e6e8c5648473539a910d7f49",
+    "license": "CC-BY-SA-4.0",
+    "lutEncoding": "llut-v1",
+    "lutTableSha256": "6afe1361a13234e01a3c7127451306b6681201544b9a21e8a6f4f92df170d810",
+    "lutPackedSha256": "1814b839a4067c3a1d31018d4a423215daa6166f3b602189224986560f39d8e3"
+  },
+  {
+    "id": "film-kodak-t-max-100",
+    "name": "Kodak T-Max 100",
+    "category": "Film argentique",
+    "pack": "Film argentique · HaldCLUT",
+    "description": "Simulation argentique sRGB · collection RawTherapee / cedeber.",
+    "settings": {
+      "intensity": 100
+    },
+    "lutName": "Kodak T-Max 100 · HaldCLUT",
+    "lutPath": "assets/lut-packs/film-kodak-t-max-100.llut",
+    "lutSize": 33,
+    "source": "https://raw.githubusercontent.com/cedeber/hald-clut/3b3180f82d4dcea1e6e8c5648473539a910d7f49/HaldCLUT/Film%20Simulation/Black%20and%20White/Kodak/Kodak%20T-Max%20100.png",
+    "sourceCommit": "3b3180f82d4dcea1e6e8c5648473539a910d7f49",
+    "license": "CC-BY-SA-4.0",
+    "lutEncoding": "llut-v1",
+    "lutTableSha256": "c92d06de4c5449f5b1416e89dc4bed836a51dd4f13b4ea726eb7b9b762cfc161",
+    "lutPackedSha256": "2c0ece0c724e2fb127d9516918ec34c7a06588de5776426efc31c20c51c538f1"
+  },
+  {
+    "id": "film-kodak-t-max-400",
+    "name": "Kodak T-Max 400",
+    "category": "Film argentique",
+    "pack": "Film argentique · HaldCLUT",
+    "description": "Simulation argentique sRGB · collection RawTherapee / cedeber.",
+    "settings": {
+      "intensity": 100
+    },
+    "lutName": "Kodak T-Max 400 · HaldCLUT",
+    "lutPath": "assets/lut-packs/film-kodak-t-max-400.llut",
+    "lutSize": 33,
+    "source": "https://raw.githubusercontent.com/cedeber/hald-clut/3b3180f82d4dcea1e6e8c5648473539a910d7f49/HaldCLUT/Film%20Simulation/Black%20and%20White/Kodak/Kodak%20T-Max%20400.png",
+    "sourceCommit": "3b3180f82d4dcea1e6e8c5648473539a910d7f49",
+    "license": "CC-BY-SA-4.0",
+    "lutEncoding": "llut-v1",
+    "lutTableSha256": "3a42e6aaeb7d115f4fadb75e781de49ea728200c0b1a633d3acefbd9411cd656",
+    "lutPackedSha256": "089bd5f1c1c1674eee92dc4b12a1aeaade902cf674bf1d8e9e5ea418f319e846"
+  },
+  {
+    "id": "openluts-open-exposure-control-technical",
+    "name": "Exposure Control",
+    "category": "OpenLUTs · Technique",
+    "description": "Transformation technique par Tanishq Pal. À utiliser avec l’espace couleur et la courbe indiqués par son nom.",
+    "pack": "OpenLUTs",
+    "settings": {
+      "intensity": 100
+    },
+    "lutName": "Open-Exposure-Control-(Technical).cube",
+    "lutPath": "assets/lut-packs/openluts-open-exposure-control-technical.llut",
+    "license": "CC0-1.0",
+    "source": "https://raw.githubusercontent.com/darkyboys/openluts/b30533c4d292a66e0733b69981bde709cc3fda68/Open-Exposure-Control-(Technical).cube",
+    "sourceSha256": "aeea20adaec6abdb8baae8fb3bfefd185bfc3a054a00bbb0d03de292fd426d6b",
+    "lutSize": 64,
+    "lutEncoding": "llut-v1",
+    "lutTableSha256": "9a41594e8de65b32d786c3b17d3a87305bdbdff697846d8a0b63aee8bd5500e2",
+    "lutPackedSha256": "96b1e906aa8a9cb207b375059ebc4d9eaeb94c5b264720362044fd5a0088cdc0"
+  },
+  {
+    "id": "openluts-open-linear-to-rec709-transformer-technical",
+    "name": "Linear to Rec709 Transformer",
+    "category": "OpenLUTs · Technique",
+    "description": "Transformation technique par Tanishq Pal. À utiliser avec l’espace couleur et la courbe indiqués par son nom.",
+    "pack": "OpenLUTs",
+    "settings": {
+      "intensity": 100
+    },
+    "lutName": "Open_Linear_to_Rec709_Transformer_(Technical).cube",
+    "lutPath": "assets/lut-packs/openluts-open-linear-to-rec709-transformer-technical.llut",
+    "license": "CC0-1.0",
+    "source": "https://raw.githubusercontent.com/darkyboys/openluts/b30533c4d292a66e0733b69981bde709cc3fda68/Open_Linear_to_Rec709_Transformer_(Technical).cube",
+    "sourceSha256": "7e09f6a566ef199be55963697c6ea67e8b05f180a16b489f4ab1aeefae259765",
+    "lutSize": 64,
+    "lutEncoding": "llut-v1",
+    "lutTableSha256": "677579c3545b1855f8259f3dedfa4ae2754a99dea01548acf1e675a9aa6bd9c9",
+    "lutPackedSha256": "7a81e277a42e6a8317cb59bed13ed858cf6d1a893d767096059e6cc70cad026f"
+  },
+  {
+    "id": "openluts-open-linear-to-slog3-transformer-technical",
+    "name": "Linear to SLOG3 Transformer",
+    "category": "OpenLUTs · Technique",
+    "description": "Transformation technique par Tanishq Pal. À utiliser avec l’espace couleur et la courbe indiqués par son nom.",
+    "pack": "OpenLUTs",
+    "settings": {
+      "intensity": 100
+    },
+    "lutName": "Open-Linear-to-SLOG3-Transformer (Technical).cube",
+    "lutPath": "assets/lut-packs/openluts-open-linear-to-slog3-transformer-technical.llut",
+    "license": "CC0-1.0",
+    "source": "https://raw.githubusercontent.com/darkyboys/openluts/b30533c4d292a66e0733b69981bde709cc3fda68/Open-Linear-to-SLOG3-Transformer%20(Technical).cube",
+    "sourceSha256": "303b5e00245d3682d795dcf33b70588f359542b11a9715467135b1afb6aae2cf",
+    "lutSize": 64,
+    "lutEncoding": "llut-v1",
+    "lutTableSha256": "cce80851575b22f043d9b8068c6a79bfe46d753d0cd971c90e7c700badfdfeda",
+    "lutPackedSha256": "10090991aae75aa2b33344421c6750d6638954a45ddb2d00cd2f60d59eeabdf0"
+  },
+  {
+    "id": "openluts-open-opencameralog-to-rec709-transformer-technical",
+    "name": "OpenCameraLOG to Rec709 transformer",
+    "category": "OpenLUTs · Technique",
+    "description": "Transformation technique par Tanishq Pal. À utiliser avec l’espace couleur et la courbe indiqués par son nom.",
+    "pack": "OpenLUTs",
+    "settings": {
+      "intensity": 100
+    },
+    "lutName": "Open-OpenCameraLOG-to-Rec709-transformer-(Technical).cube",
+    "lutPath": "assets/lut-packs/openluts-open-opencameralog-to-rec709-transformer-technical.llut",
+    "license": "CC0-1.0",
+    "source": "https://raw.githubusercontent.com/darkyboys/openluts/b30533c4d292a66e0733b69981bde709cc3fda68/Open-OpenCameraLOG-to-Rec709-transformer-(Technical).cube",
+    "sourceSha256": "82f2cd7dc8712e69743e91ea69505c553c4e7dc611f44fffbfcf1920f510f18b",
+    "lutSize": 64,
+    "lutEncoding": "llut-v1",
+    "lutTableSha256": "bda52774a9d39f210fd99541dd126a999c4c774f0fab4100e292fa2c46ea9686",
+    "lutPackedSha256": "bc56c1f0df9c187113ad3719e01f37ee80a25cc30757fbe8b788e52767a5fe36"
+  },
+  {
+    "id": "openluts-open-openlog-to-rec709-transformer-technical",
+    "name": "OpenLog to Rec709 transformer",
+    "category": "OpenLUTs · Technique",
+    "description": "Transformation technique par Tanishq Pal. À utiliser avec l’espace couleur et la courbe indiqués par son nom.",
+    "pack": "OpenLUTs",
+    "settings": {
+      "intensity": 100
+    },
+    "lutName": "Open-OpenLog-to-Rec709-transformer-(Technical).cube",
+    "lutPath": "assets/lut-packs/openluts-open-openlog-to-rec709-transformer-technical.llut",
+    "license": "CC0-1.0",
+    "source": "https://raw.githubusercontent.com/darkyboys/openluts/b30533c4d292a66e0733b69981bde709cc3fda68/Open-OpenLog-to-Rec709-transformer-(Technical).cube",
+    "sourceSha256": "6d9d193355cddaed09b0de8864c76c5c20c4d49f30e43c54f8fe96263262ec8d",
+    "lutSize": 64,
+    "lutEncoding": "llut-v1",
+    "lutTableSha256": "df38d8f85237bec8b3b9b31be9238b212b2be3cf29cf464309eac83ad125686b",
+    "lutPackedSha256": "cf6960da7312edab64420c5eb27a883fc3a2e1eb538d4afdb1e6483a4336a640"
+  },
+  {
+    "id": "openluts-open-rec709-to-linear-transformer-technical",
+    "name": "Rec709 to Linear Transformer",
+    "category": "OpenLUTs · Technique",
+    "description": "Transformation technique par Tanishq Pal. À utiliser avec l’espace couleur et la courbe indiqués par son nom.",
+    "pack": "OpenLUTs",
+    "settings": {
+      "intensity": 100
+    },
+    "lutName": "Open_Rec709_to_Linear_Transformer_(Technical).cube",
+    "lutPath": "assets/lut-packs/openluts-open-rec709-to-linear-transformer-technical.llut",
+    "license": "CC0-1.0",
+    "source": "https://raw.githubusercontent.com/darkyboys/openluts/b30533c4d292a66e0733b69981bde709cc3fda68/Open_Rec709_to_Linear_Transformer_(Technical).cube",
+    "sourceSha256": "baf344e6c34fe6fbd893b473adc94c4aa713a9ed3cc6bfeb1691fb03afdd4b76",
+    "lutSize": 64,
+    "lutEncoding": "llut-v1",
+    "lutTableSha256": "26af9ad4200d1116314f21418072c64cb8debef55e037aa6a5736934ab868751",
+    "lutPackedSha256": "47bffd9a8d18ff8f2825e021a78e442730812086c8c6c2175270cf9cd515c7a3"
+  },
+  {
+    "id": "openluts-open-rec709-to-openlog-transformer-technical",
+    "name": "Rec709 to OpenLog transformer",
+    "category": "OpenLUTs · Technique",
+    "description": "Transformation technique par Tanishq Pal. À utiliser avec l’espace couleur et la courbe indiqués par son nom.",
+    "pack": "OpenLUTs",
+    "settings": {
+      "intensity": 100
+    },
+    "lutName": "Open-Rec709-to-OpenLog-transformer-(Technical).cube",
+    "lutPath": "assets/lut-packs/openluts-open-rec709-to-openlog-transformer-technical.llut",
+    "license": "CC0-1.0",
+    "source": "https://raw.githubusercontent.com/darkyboys/openluts/b30533c4d292a66e0733b69981bde709cc3fda68/Open-Rec709-to-OpenLog-transformer-(Technical).cube",
+    "sourceSha256": "cf5e62567eec0bd4f479659ccca8b8fe9e55b024c3922459def9558b64e9e5df",
+    "lutSize": 64,
+    "lutEncoding": "llut-v1",
+    "lutTableSha256": "bed3d4d5d13b586c47b45eaec29f9e4ca0ebf150b210d16b0f51b2585cd7b19d",
+    "lutPackedSha256": "e5d42540cf56e0245bdc27970a5e7954885b7520ca7df027ceebe0472be9ca15"
+  },
+  {
+    "id": "openluts-open-rec709-to-srgb-transformer-technical",
+    "name": "Rec709 to sRGB transformer",
+    "category": "OpenLUTs · Technique",
+    "description": "Transformation technique par Tanishq Pal. À utiliser avec l’espace couleur et la courbe indiqués par son nom.",
+    "pack": "OpenLUTs",
+    "settings": {
+      "intensity": 100
+    },
+    "lutName": "Open-Rec709-to-sRGB-transformer-(Technical).cube",
+    "lutPath": "assets/lut-packs/openluts-open-rec709-to-srgb-transformer-technical.llut",
+    "license": "CC0-1.0",
+    "source": "https://raw.githubusercontent.com/darkyboys/openluts/b30533c4d292a66e0733b69981bde709cc3fda68/Open-Rec709-to-sRGB-transformer-(Technical).cube",
+    "sourceSha256": "aab97d4920bc8fe111e72670eca6ff17258ee7572214abd356eb4b5a1441fbc4",
+    "lutSize": 64,
+    "lutEncoding": "llut-v1",
+    "lutTableSha256": "60e03eea62f5081fc9d70e447e1a0b3177a1040e0a10e3bd19f2a6d13bf44dcf",
+    "lutPackedSha256": "6a868f98fb25f2f3f9c5a42a461d71d1f9d2384c96cb9ba9e15334b4f53a35f0"
+  },
+  {
+    "id": "openluts-open-slog-to-rec709-technical",
+    "name": "SLOG to Rec709",
+    "category": "OpenLUTs · Technique",
+    "description": "Transformation technique par Tanishq Pal. À utiliser avec l’espace couleur et la courbe indiqués par son nom.",
+    "pack": "OpenLUTs",
+    "settings": {
+      "intensity": 100
+    },
+    "lutName": "Open-SLOG-to-Rec709-(Technical).cube",
+    "lutPath": "assets/lut-packs/openluts-open-slog-to-rec709-technical.llut",
+    "license": "CC0-1.0",
+    "source": "https://raw.githubusercontent.com/darkyboys/openluts/b30533c4d292a66e0733b69981bde709cc3fda68/Open-SLOG-to-Rec709-(Technical).cube",
+    "sourceSha256": "15b5079823c0aad904df9758615ac9e60143c623448f083bd1d18be991b113c9",
+    "lutSize": 64,
+    "lutEncoding": "llut-v1",
+    "lutTableSha256": "5fdf2bf4f23083942c0aa6870cc7fca3e9e2d482e7662a27a5da4636a0e87e56",
+    "lutPackedSha256": "f2c3575315bcd4456b2e29fa59f6cf1f5aa39269029be1b5e6c470f74beed4ed"
+  },
+  {
+    "id": "openluts-open-slog3-to-rec709-transformer-technical",
+    "name": "SLOG3 to Rec709 Transformer",
+    "category": "OpenLUTs · Technique",
+    "description": "Transformation technique par Tanishq Pal. À utiliser avec l’espace couleur et la courbe indiqués par son nom.",
+    "pack": "OpenLUTs",
+    "settings": {
+      "intensity": 100
+    },
+    "lutName": "Open-SLOG3-to-Rec709-Transformer (Technical).cube",
+    "lutPath": "assets/lut-packs/openluts-open-slog3-to-rec709-transformer-technical.llut",
+    "license": "CC0-1.0",
+    "source": "https://raw.githubusercontent.com/darkyboys/openluts/b30533c4d292a66e0733b69981bde709cc3fda68/Open-SLOG3-to-Rec709-Transformer%20(Technical).cube",
+    "sourceSha256": "87ba9a21cdea1b9b9a6c341135e65b41e91485069d23f4a71548fb56cf7e8f5c",
+    "lutSize": 64,
+    "lutEncoding": "llut-v1",
+    "lutTableSha256": "49da02f50ac1458a7d6a3da5b7c96ead38509952c4413dd4e94cc901791a1bc1",
+    "lutPackedSha256": "4900ba4a4af8f9f2d308fd3c7b4ef783561e6694ad33adb9fa9eecdaec92faa3"
+  },
+  {
+    "id": "openluts-open-soft-light-technical",
+    "name": "Soft Light",
+    "category": "OpenLUTs · Technique",
+    "description": "Transformation technique par Tanishq Pal. À utiliser avec l’espace couleur et la courbe indiqués par son nom.",
+    "pack": "OpenLUTs",
+    "settings": {
+      "intensity": 100
+    },
+    "lutName": "Open-Soft-Light-(Technical).cube",
+    "lutPath": "assets/lut-packs/openluts-open-soft-light-technical.llut",
+    "license": "CC0-1.0",
+    "source": "https://raw.githubusercontent.com/darkyboys/openluts/b30533c4d292a66e0733b69981bde709cc3fda68/Open-Soft-Light-(Technical).cube",
+    "sourceSha256": "1685ae54bece8c5f64d9834bd9116d2db1601814475ee1d1c912626b205d9c38",
+    "lutSize": 64,
+    "lutEncoding": "llut-v1",
+    "lutTableSha256": "7c019497d8a636eb2fbdba903bffcf4ca75667573dd1f6750271cf54bca46496",
+    "lutPackedSha256": "8153df4bfe914c1d2e9e5b19c6671d88a21d73a90e903f1ebe8ed71033486ec3"
+  },
+  {
+    "id": "openluts-open-srgb-to-rec709-transformer-technical",
+    "name": "sRGB to Rec709 transformer",
+    "category": "OpenLUTs · Technique",
+    "description": "Transformation technique par Tanishq Pal. À utiliser avec l’espace couleur et la courbe indiqués par son nom.",
+    "pack": "OpenLUTs",
+    "settings": {
+      "intensity": 100
+    },
+    "lutName": "Open-sRGB-to-Rec709-transformer-(Technical).cube",
+    "lutPath": "assets/lut-packs/openluts-open-srgb-to-rec709-transformer-technical.llut",
+    "license": "CC0-1.0",
+    "source": "https://raw.githubusercontent.com/darkyboys/openluts/b30533c4d292a66e0733b69981bde709cc3fda68/Open-sRGB-to-Rec709-transformer-(Technical).cube",
+    "sourceSha256": "1c67df6eeb5b55d1eaff2357754249d40918f5f020b39a08a880a37cdd6d8f1f",
+    "lutSize": 64,
+    "lutEncoding": "llut-v1",
+    "lutTableSha256": "75d1cf239b368e2215c837eac09097a4ec6829374b545386dea81fa96eedb401",
+    "lutPackedSha256": "a065a7cc500a9c97cbb0574731affd326440dfc11871893273bde04d3aa89bc9"
+  },
+  {
+    "id": "openluts-open-teal-orange-creative",
+    "name": "Teal & Orange",
+    "category": "OpenLUTs",
+    "description": "Look Teal & Orange par Tanishq Pal.",
+    "pack": "OpenLUTs",
+    "settings": {
+      "intensity": 100
+    },
+    "lutName": "Open-Teal-&-Orange-(Creative).cube",
+    "lutPath": "assets/lut-packs/openluts-open-teal-orange-creative.llut",
+    "license": "CC0-1.0",
+    "source": "https://raw.githubusercontent.com/darkyboys/openluts/b30533c4d292a66e0733b69981bde709cc3fda68/Open-Teal-%26-Orange-(Creative).cube",
+    "sourceSha256": "6484d0c34817766ba7ec443396712a12225d70f9c806f4dc366953bb6abfe3bc",
+    "lutSize": 64,
+    "lutEncoding": "llut-v1",
+    "lutTableSha256": "e9cbe0fc6f7adbc42798ffb729e52abe8726a32bf73dce1b935d2b2b14638d88",
+    "lutPackedSha256": "51ae6fc3abf242c039b65080078400e088e08b05a6250d42d8517a3b0e71560b"
+  },
+  {
+    "id": "openluts-open-teal-orange-depreciated",
+    "name": "Teal & Orange · ancien",
+    "category": "OpenLUTs",
+    "description": "Look Teal & Orange par Tanishq Pal · version ancienne du pack.",
+    "pack": "OpenLUTs",
+    "settings": {
+      "intensity": 100
+    },
+    "lutName": "Open Teal & Orange (Depreciated).cube",
+    "lutPath": "assets/lut-packs/openluts-open-teal-orange-depreciated.llut",
+    "license": "CC0-1.0",
+    "source": "https://raw.githubusercontent.com/darkyboys/openluts/b30533c4d292a66e0733b69981bde709cc3fda68/Open%20Teal%20%26%20Orange%20(Depreciated).cube",
+    "sourceSha256": "966d64c84b9b22a8b33f92a1be8bb6ff1db87865425a28bb307f6bb245c3a1e9",
+    "lutSize": 64,
+    "lutEncoding": "llut-v1",
+    "lutTableSha256": "eb8c5c29691e2436f7a9cbf4fba2ae3ad0adb54b1adafa50720aa08ed6776586",
+    "lutPackedSha256": "0ce46fc632062fad8a8ac2555e9ccb774df66a7bcdd082d1612f333d4c638b22"
+  },
+  {
+    "id": "slay-slay-01-amber",
+    "name": "slay Amber",
+    "category": "slay Cinematic",
+    "description": "Look cinématographique original par slay.",
+    "pack": "slay Cinematic",
+    "settings": {
+      "intensity": 100
+    },
+    "lutName": "slay-01-amber.cube",
+    "lutPath": "assets/lut-packs/slay-slay-01-amber.llut",
+    "license": "CC-BY-4.0",
+    "source": "https://raw.githubusercontent.com/slaycamera/luts/a1709044efe115640dde1dee17d4185fc059af0d/luts/slay-01-amber.cube",
+    "sourceSha256": "5912a5761bb9663901ae1a311add997055390e94972f77fe32407d88dca20b08",
+    "lutSize": 33,
+    "lutEncoding": "llut-v1",
+    "lutTableSha256": "3d99e09c3115569b102cc76aa24e2a44b57a9de6fcd3346acd00cf60e9ff9e08",
+    "lutPackedSha256": "9451b5f87f1654256263cc0bac71a32ff593f32787961910dfd10a5ad5e6436d"
+  },
+  {
+    "id": "slay-slay-02-fade",
+    "name": "slay Fade",
+    "category": "slay Cinematic",
+    "description": "Look cinématographique original par slay.",
+    "pack": "slay Cinematic",
+    "settings": {
+      "intensity": 100
+    },
+    "lutName": "slay-02-fade.cube",
+    "lutPath": "assets/lut-packs/slay-slay-02-fade.llut",
+    "license": "CC-BY-4.0",
+    "source": "https://raw.githubusercontent.com/slaycamera/luts/a1709044efe115640dde1dee17d4185fc059af0d/luts/slay-02-fade.cube",
+    "sourceSha256": "0fc029d88a11c13abad35729c4a665ccd4bccfe8fb841d89874ab6c74651dc96",
+    "lutSize": 33,
+    "lutEncoding": "llut-v1",
+    "lutTableSha256": "bfdcc419ad7a6640e91998e5cfc83befcbbb2eece7ebe5e30d949f15025c60c1",
+    "lutPackedSha256": "aebbac92d2fdaaecaf1f2031f6a75dacfe91fc009f89e29d72b062501838933d"
+  },
+  {
+    "id": "slay-slay-03-neon",
+    "name": "slay Neon",
+    "category": "slay Cinematic",
+    "description": "Look cinématographique original par slay.",
+    "pack": "slay Cinematic",
+    "settings": {
+      "intensity": 100
+    },
+    "lutName": "slay-03-neon.cube",
+    "lutPath": "assets/lut-packs/slay-slay-03-neon.llut",
+    "license": "CC-BY-4.0",
+    "source": "https://raw.githubusercontent.com/slaycamera/luts/a1709044efe115640dde1dee17d4185fc059af0d/luts/slay-03-neon.cube",
+    "sourceSha256": "07ac89f666c74e638d79fb28f4de5a5e18ae47bfc9ba04bb5c50e005555e7141",
+    "lutSize": 33,
+    "lutEncoding": "llut-v1",
+    "lutTableSha256": "3120d22d9ce9b9f17b5d121824d750a52f5be5f925c7429a129be6651ebfc96d",
+    "lutPackedSha256": "ca9571efae1613c35692de66df747f6355eb5a5ce118ec781cf38a74e7f5c363"
+  },
+  {
+    "id": "slay-slay-04-film",
+    "name": "slay Film",
+    "category": "slay Cinematic",
+    "description": "Look cinématographique original par slay.",
+    "pack": "slay Cinematic",
+    "settings": {
+      "intensity": 100
+    },
+    "lutName": "slay-04-film.cube",
+    "lutPath": "assets/lut-packs/slay-slay-04-film.llut",
+    "license": "CC-BY-4.0",
+    "source": "https://raw.githubusercontent.com/slaycamera/luts/a1709044efe115640dde1dee17d4185fc059af0d/luts/slay-04-film.cube",
+    "sourceSha256": "d846f24a0ce3affbeaa5f3969b0dde5b54018a9aedf7e46614bf963fffbf4738",
+    "lutSize": 33,
+    "lutEncoding": "llut-v1",
+    "lutTableSha256": "891675ddb17a73c420707085752ba6c7c35153a1c3fdf4be23f3e5cb2f26a6e3",
+    "lutPackedSha256": "446ff7b9eaae8d0cae956d38869e2f4bc444afb310197c8a21f486bbef206ceb"
+  },
+  {
+    "id": "slay-slay-05-portrait",
+    "name": "slay Portrait",
+    "category": "slay Cinematic",
+    "description": "Look cinématographique original par slay.",
+    "pack": "slay Cinematic",
+    "settings": {
+      "intensity": 100
+    },
+    "lutName": "slay-05-portrait.cube",
+    "lutPath": "assets/lut-packs/slay-slay-05-portrait.llut",
+    "license": "CC-BY-4.0",
+    "source": "https://raw.githubusercontent.com/slaycamera/luts/a1709044efe115640dde1dee17d4185fc059af0d/luts/slay-05-portrait.cube",
+    "sourceSha256": "432898146d41e061db1d36d37f89130d1394fb9f4eb13e80630e18e10d2cc895",
+    "lutSize": 33,
+    "lutEncoding": "llut-v1",
+    "lutTableSha256": "0558a73912e6acf571d6f3bf67147b6deb747d86e2dfe380f655c134720c7668",
+    "lutPackedSha256": "32ac2650c9644810200183e182811a09705336f0dde96df6d4073b86625fb066"
+  }
+]

@@ -1,0 +1,98 @@
+[
+  {
+    "id": "daedal-teal-orange",
+    "name": "Teal & orange",
+    "category": "DAEDAL Cinematic",
+    "description": "Ombres cyan et lumière chaude.",
+    "pack": "DAEDAL Cinematic",
+    "settings": {
+      "intensity": 80
+    },
+    "lutName": "DAEDAL_01_Teal_Orange.cube",
+    "lutPath": "assets/luts/DAEDAL_01_Teal_Orange.cube"
+  },
+  {
+    "id": "daedal-blockbuster",
+    "name": "Blockbuster",
+    "category": "DAEDAL Cinematic",
+    "description": "Contraste affirmé et ambiance cinéma.",
+    "pack": "DAEDAL Cinematic",
+    "settings": {
+      "intensity": 80
+    },
+    "lutName": "DAEDAL_02_Blockbuster.cube",
+    "lutPath": "assets/luts/DAEDAL_02_Blockbuster.cube"
+  },
+  {
+    "id": "daedal-nordic",
+    "name": "Nordic",
+    "category": "DAEDAL Cinematic",
+    "description": "Une lumière froide et des couleurs retenues.",
+    "pack": "DAEDAL Cinematic",
+    "settings": {
+      "intensity": 80
+    },
+    "lutName": "DAEDAL_03_Nordic.cube",
+    "lutPath": "assets/luts/DAEDAL_03_Nordic.cube"
+  },
+  {
+    "id": "daedal-desert",
+    "name": "Desert",
+    "category": "DAEDAL Cinematic",
+    "description": "Des tons chauds et minéraux.",
+    "pack": "DAEDAL Cinematic",
+    "settings": {
+      "intensity": 80
+    },
+    "lutName": "DAEDAL_04_Desert.cube",
+    "lutPath": "assets/luts/DAEDAL_04_Desert.cube"
+  },
+  {
+    "id": "daedal-moody",
+    "name": "Moody",
+    "category": "DAEDAL Cinematic",
+    "description": "Une atmosphère dense et feutrée.",
+    "pack": "DAEDAL Cinematic",
+    "settings": {
+      "intensity": 80
+    },
+    "lutName": "DAEDAL_05_Moody.cube",
+    "lutPath": "assets/luts/DAEDAL_05_Moody.cube"
+  },
+  {
+    "id": "daedal-bleach-bypass",
+    "name": "Bleach bypass",
+    "category": "DAEDAL Cinematic",
+    "description": "Contraste argentique et couleurs désaturées.",
+    "pack": "DAEDAL Cinematic",
+    "settings": {
+      "intensity": 80
+    },
+    "lutName": "DAEDAL_06_Bleach_Bypass.cube",
+    "lutPath": "assets/luts/DAEDAL_06_Bleach_Bypass.cube"
+  },
+  {
+    "id": "daedal-night-city",
+    "name": "Night city",
+    "category": "DAEDAL Cinematic",
+    "description": "Couleurs nocturnes et reflets urbains.",
+    "pack": "DAEDAL Cinematic",
+    "settings": {
+      "intensity": 80
+    },
+    "lutName": "DAEDAL_07_Night_City.cube",
+    "lutPath": "assets/luts/DAEDAL_07_Night_City.cube"
+  },
+  {
+    "id": "daedal-forest",
+    "name": "Forest",
+    "category": "DAEDAL Cinematic",
+    "description": "Des verts profonds et naturels.",
+    "pack": "DAEDAL Cinematic",
+    "settings": {
+      "intensity": 80
+    },
+    "lutName": "DAEDAL_08_Forest.cube",
+    "lutPath": "assets/luts/DAEDAL_08_Forest.cube"
+  }
+]

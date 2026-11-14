@@ -1,0 +1,16 @@
+node_modules/
+dist/
+release/
+src-tauri/target/
+src-tauri/gen/schemas/
+src-tauri/binaries/ffmpeg-*
+src-tauri/binaries/licenses/
+# Raw LUT sources (≈150 Mo) stay on the development machine; packed .llut files are committed.
+luts-src/
+e2e-output/
+test-results/
+playwright-report/
+*.log
+.DS_Store
+Thumbs.db
+_old-electron-1.6.2/

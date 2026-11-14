@@ -1,0 +1,8 @@
+RawTherapee Film Simulation Collection
+Authors: Pat David, Pavlov Dmitry, Michael Ezra.
+Source: https://github.com/cedeber/hald-clut/tree/3b3180f82d4dcea1e6e8c5648473539a910d7f49/HaldCLUT/Film%20Simulation
+License: CC BY-SA 4.0, https://creativecommons.org/licenses/by-sa/4.0/
+Modifications by LumiLooks: converted the selected original sRGB Hald PNGs into 33-point RGB Float32 tables using trilinear interpolation. These converted tables remain under CC BY-SA 4.0.
+Film names identify intended approximations; no affiliation or endorsement.
+GitHub stars observed on 2026-11-07: 332.
+Conversion source: scripts/download-film-pack.cjs in the LumiLooks project.

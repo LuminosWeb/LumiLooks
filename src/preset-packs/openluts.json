@@ -1,0 +1,212 @@
+[
+  {
+    "id": "openluts-open-exposure-control-technical",
+    "name": "Exposure Control",
+    "category": "OpenLUTs · Technique",
+    "description": "Transformation technique par Tanishq Pal. À utiliser avec l’espace couleur et la courbe indiqués par son nom.",
+    "pack": "OpenLUTs",
+    "settings": {
+      "intensity": 100
+    },
+    "lutName": "Open-Exposure-Control-(Technical).cube",
+    "lutPath": "assets/luts/openluts/Open-Exposure-Control-(Technical).cube",
+    "license": "CC0-1.0",
+    "source": "https://raw.githubusercontent.com/darkyboys/openluts/b30533c4d292a66e0733b69981bde709cc3fda68/Open-Exposure-Control-(Technical).cube",
+    "sourceSha256": "aeea20adaec6abdb8baae8fb3bfefd185bfc3a054a00bbb0d03de292fd426d6b"
+  },
+  {
+    "id": "openluts-open-linear-to-rec709-transformer-technical",
+    "name": "Linear to Rec709 Transformer",
+    "category": "OpenLUTs · Technique",
+    "description": "Transformation technique par Tanishq Pal. À utiliser avec l’espace couleur et la courbe indiqués par son nom.",
+    "pack": "OpenLUTs",
+    "settings": {
+      "intensity": 100
+    },
+    "lutName": "Open_Linear_to_Rec709_Transformer_(Technical).cube",
+    "lutPath": "assets/luts/openluts/Open_Linear_to_Rec709_Transformer_(Technical).cube",
+    "license": "CC0-1.0",
+    "source": "https://raw.githubusercontent.com/darkyboys/openluts/b30533c4d292a66e0733b69981bde709cc3fda68/Open_Linear_to_Rec709_Transformer_(Technical).cube",
+    "sourceSha256": "7e09f6a566ef199be55963697c6ea67e8b05f180a16b489f4ab1aeefae259765"
+  },
+  {
+    "id": "openluts-open-linear-to-slog3-transformer-technical",
+    "name": "Linear to SLOG3 Transformer",
+    "category": "OpenLUTs · Technique",
+    "description": "Transformation technique par Tanishq Pal. À utiliser avec l’espace couleur et la courbe indiqués par son nom.",
+    "pack": "OpenLUTs",
+    "settings": {
+      "intensity": 100
+    },
+    "lutName": "Open-Linear-to-SLOG3-Transformer (Technical).cube",
+    "lutPath": "assets/luts/openluts/Open-Linear-to-SLOG3-Transformer (Technical).cube",
+    "license": "CC0-1.0",
+    "source": "https://raw.githubusercontent.com/darkyboys/openluts/b30533c4d292a66e0733b69981bde709cc3fda68/Open-Linear-to-SLOG3-Transformer%20(Technical).cube",
+    "sourceSha256": "303b5e00245d3682d795dcf33b70588f359542b11a9715467135b1afb6aae2cf"
+  },
+  {
+    "id": "openluts-open-opencameralog-to-rec709-transformer-technical",
+    "name": "OpenCameraLOG to Rec709 transformer",
+    "category": "OpenLUTs · Technique",
+    "description": "Transformation technique par Tanishq Pal. À utiliser avec l’espace couleur et la courbe indiqués par son nom.",
+    "pack": "OpenLUTs",
+    "settings": {
+      "intensity": 100
+    },
+    "lutName": "Open-OpenCameraLOG-to-Rec709-transformer-(Technical).cube",
+    "lutPath": "assets/luts/openluts/Open-OpenCameraLOG-to-Rec709-transformer-(Technical).cube",
+    "license": "CC0-1.0",
+    "source": "https://raw.githubusercontent.com/darkyboys/openluts/b30533c4d292a66e0733b69981bde709cc3fda68/Open-OpenCameraLOG-to-Rec709-transformer-(Technical).cube",
+    "sourceSha256": "82f2cd7dc8712e69743e91ea69505c553c4e7dc611f44fffbfcf1920f510f18b"
+  },
+  {
+    "id": "openluts-open-openlog-to-rec709-transformer-technical",
+    "name": "OpenLog to Rec709 transformer",
+    "category": "OpenLUTs · Technique",
+    "description": "Transformation technique par Tanishq Pal. À utiliser avec l’espace couleur et la courbe indiqués par son nom.",
+    "pack": "OpenLUTs",
+    "settings": {
+      "intensity": 100
+    },
+    "lutName": "Open-OpenLog-to-Rec709-transformer-(Technical).cube",
+    "lutPath": "assets/luts/openluts/Open-OpenLog-to-Rec709-transformer-(Technical).cube",
+    "license": "CC0-1.0",
+    "source": "https://raw.githubusercontent.com/darkyboys/openluts/b30533c4d292a66e0733b69981bde709cc3fda68/Open-OpenLog-to-Rec709-transformer-(Technical).cube",
+    "sourceSha256": "6d9d193355cddaed09b0de8864c76c5c20c4d49f30e43c54f8fe96263262ec8d"
+  },
+  {
+    "id": "openluts-open-rec709-to-linear-transformer-technical",
+    "name": "Rec709 to Linear Transformer",
+    "category": "OpenLUTs · Technique",
+    "description": "Transformation technique par Tanishq Pal. À utiliser avec l’espace couleur et la courbe indiqués par son nom.",
+    "pack": "OpenLUTs",
+    "settings": {
+      "intensity": 100
+    },
+    "lutName": "Open_Rec709_to_Linear_Transformer_(Technical).cube",
+    "lutPath": "assets/luts/openluts/Open_Rec709_to_Linear_Transformer_(Technical).cube",
+    "license": "CC0-1.0",
+    "source": "https://raw.githubusercontent.com/darkyboys/openluts/b30533c4d292a66e0733b69981bde709cc3fda68/Open_Rec709_to_Linear_Transformer_(Technical).cube",
+    "sourceSha256": "baf344e6c34fe6fbd893b473adc94c4aa713a9ed3cc6bfeb1691fb03afdd4b76"
+  },
+  {
+    "id": "openluts-open-rec709-to-openlog-transformer-technical",
+    "name": "Rec709 to OpenLog transformer",
+    "category": "OpenLUTs · Technique",
+    "description": "Transformation technique par Tanishq Pal. À utiliser avec l’espace couleur et la courbe indiqués par son nom.",
+    "pack": "OpenLUTs",
+    "settings": {
+      "intensity": 100
+    },
+    "lutName": "Open-Rec709-to-OpenLog-transformer-(Technical).cube",
+    "lutPath": "assets/luts/openluts/Open-Rec709-to-OpenLog-transformer-(Technical).cube",
+    "license": "CC0-1.0",
+    "source": "https://raw.githubusercontent.com/darkyboys/openluts/b30533c4d292a66e0733b69981bde709cc3fda68/Open-Rec709-to-OpenLog-transformer-(Technical).cube",
+    "sourceSha256": "cf5e62567eec0bd4f479659ccca8b8fe9e55b024c3922459def9558b64e9e5df"
+  },
+  {
+    "id": "openluts-open-rec709-to-srgb-transformer-technical",
+    "name": "Rec709 to sRGB transformer",
+    "category": "OpenLUTs · Technique",
+    "description": "Transformation technique par Tanishq Pal. À utiliser avec l’espace couleur et la courbe indiqués par son nom.",
+    "pack": "OpenLUTs",
+    "settings": {
+      "intensity": 100
+    },
+    "lutName": "Open-Rec709-to-sRGB-transformer-(Technical).cube",
+    "lutPath": "assets/luts/openluts/Open-Rec709-to-sRGB-transformer-(Technical).cube",
+    "license": "CC0-1.0",
+    "source": "https://raw.githubusercontent.com/darkyboys/openluts/b30533c4d292a66e0733b69981bde709cc3fda68/Open-Rec709-to-sRGB-transformer-(Technical).cube",
+    "sourceSha256": "aab97d4920bc8fe111e72670eca6ff17258ee7572214abd356eb4b5a1441fbc4"
+  },
+  {
+    "id": "openluts-open-slog-to-rec709-technical",
+    "name": "SLOG to Rec709",
+    "category": "OpenLUTs · Technique",
+    "description": "Transformation technique par Tanishq Pal. À utiliser avec l’espace couleur et la courbe indiqués par son nom.",
+    "pack": "OpenLUTs",
+    "settings": {
+      "intensity": 100
+    },
+    "lutName": "Open-SLOG-to-Rec709-(Technical).cube",
+    "lutPath": "assets/luts/openluts/Open-SLOG-to-Rec709-(Technical).cube",
+    "license": "CC0-1.0",
+    "source": "https://raw.githubusercontent.com/darkyboys/openluts/b30533c4d292a66e0733b69981bde709cc3fda68/Open-SLOG-to-Rec709-(Technical).cube",
+    "sourceSha256": "15b5079823c0aad904df9758615ac9e60143c623448f083bd1d18be991b113c9"
+  },
+  {
+    "id": "openluts-open-slog3-to-rec709-transformer-technical",
+    "name": "SLOG3 to Rec709 Transformer",
+    "category": "OpenLUTs · Technique",
+    "description": "Transformation technique par Tanishq Pal. À utiliser avec l’espace couleur et la courbe indiqués par son nom.",
+    "pack": "OpenLUTs",
+    "settings": {
+      "intensity": 100
+    },
+    "lutName": "Open-SLOG3-to-Rec709-Transformer (Technical).cube",
+    "lutPath": "assets/luts/openluts/Open-SLOG3-to-Rec709-Transformer (Technical).cube",
+    "license": "CC0-1.0",
+    "source": "https://raw.githubusercontent.com/darkyboys/openluts/b30533c4d292a66e0733b69981bde709cc3fda68/Open-SLOG3-to-Rec709-Transformer%20(Technical).cube",
+    "sourceSha256": "87ba9a21cdea1b9b9a6c341135e65b41e91485069d23f4a71548fb56cf7e8f5c"
+  },
+  {
+    "id": "openluts-open-soft-light-technical",
+    "name": "Soft Light",
+    "category": "OpenLUTs · Technique",
+    "description": "Transformation technique par Tanishq Pal. À utiliser avec l’espace couleur et la courbe indiqués par son nom.",
+    "pack": "OpenLUTs",
+    "settings": {
+      "intensity": 100
+    },
+    "lutName": "Open-Soft-Light-(Technical).cube",
+    "lutPath": "assets/luts/openluts/Open-Soft-Light-(Technical).cube",
+    "license": "CC0-1.0",
+    "source": "https://raw.githubusercontent.com/darkyboys/openluts/b30533c4d292a66e0733b69981bde709cc3fda68/Open-Soft-Light-(Technical).cube",
+    "sourceSha256": "1685ae54bece8c5f64d9834bd9116d2db1601814475ee1d1c912626b205d9c38"
+  },
+  {
+    "id": "openluts-open-srgb-to-rec709-transformer-technical",
+    "name": "sRGB to Rec709 transformer",
+    "category": "OpenLUTs · Technique",
+    "description": "Transformation technique par Tanishq Pal. À utiliser avec l’espace couleur et la courbe indiqués par son nom.",
+    "pack": "OpenLUTs",
+    "settings": {
+      "intensity": 100
+    },
+    "lutName": "Open-sRGB-to-Rec709-transformer-(Technical).cube",
+    "lutPath": "assets/luts/openluts/Open-sRGB-to-Rec709-transformer-(Technical).cube",
+    "license": "CC0-1.0",
+    "source": "https://raw.githubusercontent.com/darkyboys/openluts/b30533c4d292a66e0733b69981bde709cc3fda68/Open-sRGB-to-Rec709-transformer-(Technical).cube",
+    "sourceSha256": "1c67df6eeb5b55d1eaff2357754249d40918f5f020b39a08a880a37cdd6d8f1f"
+  },
+  {
+    "id": "openluts-open-teal-orange-creative",
+    "name": "Teal & Orange",
+    "category": "OpenLUTs",
+    "description": "Look Teal & Orange par Tanishq Pal.",
+    "pack": "OpenLUTs",
+    "settings": {
+      "intensity": 100
+    },
+    "lutName": "Open-Teal-&-Orange-(Creative).cube",
+    "lutPath": "assets/luts/openluts/Open-Teal-&-Orange-(Creative).cube",
+    "license": "CC0-1.0",
+    "source": "https://raw.githubusercontent.com/darkyboys/openluts/b30533c4d292a66e0733b69981bde709cc3fda68/Open-Teal-%26-Orange-(Creative).cube",
+    "sourceSha256": "6484d0c34817766ba7ec443396712a12225d70f9c806f4dc366953bb6abfe3bc"
+  },
+  {
+    "id": "openluts-open-teal-orange-depreciated",
+    "name": "Teal & Orange · ancien",
+    "category": "OpenLUTs",
+    "description": "Look Teal & Orange par Tanishq Pal · version ancienne du pack.",
+    "pack": "OpenLUTs",
+    "settings": {
+      "intensity": 100
+    },
+    "lutName": "Open Teal & Orange (Depreciated).cube",
+    "lutPath": "assets/luts/openluts/Open Teal & Orange (Depreciated).cube",
+    "license": "CC0-1.0",
+    "source": "https://raw.githubusercontent.com/darkyboys/openluts/b30533c4d292a66e0733b69981bde709cc3fda68/Open%20Teal%20%26%20Orange%20(Depreciated).cube",
+    "sourceSha256": "966d64c84b9b22a8b33f92a1be8bb6ff1db87865425a28bb307f6bb245c3a1e9"
+  }
+]

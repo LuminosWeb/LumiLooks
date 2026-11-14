@@ -1,0 +1,386 @@
+[
+  {
+    "id": "film-agfa-precisa-100",
+    "name": "Agfa Precisa 100",
+    "category": "Film argentique",
+    "pack": "Film argentique · HaldCLUT",
+    "description": "Simulation argentique sRGB · collection RawTherapee / cedeber.",
+    "settings": {
+      "intensity": 100
+    },
+    "lutName": "Agfa Precisa 100 · HaldCLUT",
+    "lutPath": "assets/luts/film/film-agfa-precisa-100.bin",
+    "lutSize": 33,
+    "source": "https://raw.githubusercontent.com/cedeber/hald-clut/3b3180f82d4dcea1e6e8c5648473539a910d7f49/HaldCLUT/Film%20Simulation/Color/Agfa/Agfa%20Precisa%20100.png",
+    "sourceCommit": "3b3180f82d4dcea1e6e8c5648473539a910d7f49",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "film-agfa-vista-200",
+    "name": "Agfa Vista 200",
+    "category": "Film argentique",
+    "pack": "Film argentique · HaldCLUT",
+    "description": "Simulation argentique sRGB · collection RawTherapee / cedeber.",
+    "settings": {
+      "intensity": 100
+    },
+    "lutName": "Agfa Vista 200 · HaldCLUT",
+    "lutPath": "assets/luts/film/film-agfa-vista-200.bin",
+    "lutSize": 33,
+    "source": "https://raw.githubusercontent.com/cedeber/hald-clut/3b3180f82d4dcea1e6e8c5648473539a910d7f49/HaldCLUT/Film%20Simulation/Color/Agfa/Agfa%20Vista%20200.png",
+    "sourceCommit": "3b3180f82d4dcea1e6e8c5648473539a910d7f49",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "film-fuji-astia-100f",
+    "name": "Fuji Astia 100F",
+    "category": "Film argentique",
+    "pack": "Film argentique · HaldCLUT",
+    "description": "Simulation argentique sRGB · collection RawTherapee / cedeber.",
+    "settings": {
+      "intensity": 100
+    },
+    "lutName": "Fuji Astia 100F · HaldCLUT",
+    "lutPath": "assets/luts/film/film-fuji-astia-100f.bin",
+    "lutSize": 33,
+    "source": "https://raw.githubusercontent.com/cedeber/hald-clut/3b3180f82d4dcea1e6e8c5648473539a910d7f49/HaldCLUT/Film%20Simulation/Color/Fuji/Fuji%20Astia%20100F.png",
+    "sourceCommit": "3b3180f82d4dcea1e6e8c5648473539a910d7f49",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "film-fuji-provia-100f",
+    "name": "Fuji Provia 100F",
+    "category": "Film argentique",
+    "pack": "Film argentique · HaldCLUT",
+    "description": "Simulation argentique sRGB · collection RawTherapee / cedeber.",
+    "settings": {
+      "intensity": 100
+    },
+    "lutName": "Fuji Provia 100F · HaldCLUT",
+    "lutPath": "assets/luts/film/film-fuji-provia-100f.bin",
+    "lutSize": 33,
+    "source": "https://raw.githubusercontent.com/cedeber/hald-clut/3b3180f82d4dcea1e6e8c5648473539a910d7f49/HaldCLUT/Film%20Simulation/Color/Fuji/Fuji%20Provia%20100F.png",
+    "sourceCommit": "3b3180f82d4dcea1e6e8c5648473539a910d7f49",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "film-fuji-provia-400x",
+    "name": "Fuji Provia 400X",
+    "category": "Film argentique",
+    "pack": "Film argentique · HaldCLUT",
+    "description": "Simulation argentique sRGB · collection RawTherapee / cedeber.",
+    "settings": {
+      "intensity": 100
+    },
+    "lutName": "Fuji Provia 400X · HaldCLUT",
+    "lutPath": "assets/luts/film/film-fuji-provia-400x.bin",
+    "lutSize": 33,
+    "source": "https://raw.githubusercontent.com/cedeber/hald-clut/3b3180f82d4dcea1e6e8c5648473539a910d7f49/HaldCLUT/Film%20Simulation/Color/Fuji/Fuji%20Provia%20400X.png",
+    "sourceCommit": "3b3180f82d4dcea1e6e8c5648473539a910d7f49",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "film-fuji-superia-200",
+    "name": "Fuji Superia 200",
+    "category": "Film argentique",
+    "pack": "Film argentique · HaldCLUT",
+    "description": "Simulation argentique sRGB · collection RawTherapee / cedeber.",
+    "settings": {
+      "intensity": 100
+    },
+    "lutName": "Fuji Superia 200 · HaldCLUT",
+    "lutPath": "assets/luts/film/film-fuji-superia-200.bin",
+    "lutSize": 33,
+    "source": "https://raw.githubusercontent.com/cedeber/hald-clut/3b3180f82d4dcea1e6e8c5648473539a910d7f49/HaldCLUT/Film%20Simulation/Color/Fuji/Fuji%20Superia%20200.png",
+    "sourceCommit": "3b3180f82d4dcea1e6e8c5648473539a910d7f49",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "film-fuji-superia-reala-100",
+    "name": "Fuji Superia Reala 100",
+    "category": "Film argentique",
+    "pack": "Film argentique · HaldCLUT",
+    "description": "Simulation argentique sRGB · collection RawTherapee / cedeber.",
+    "settings": {
+      "intensity": 100
+    },
+    "lutName": "Fuji Superia Reala 100 · HaldCLUT",
+    "lutPath": "assets/luts/film/film-fuji-superia-reala-100.bin",
+    "lutSize": 33,
+    "source": "https://raw.githubusercontent.com/cedeber/hald-clut/3b3180f82d4dcea1e6e8c5648473539a910d7f49/HaldCLUT/Film%20Simulation/Color/Fuji/Fuji%20Superia%20Reala%20100.png",
+    "sourceCommit": "3b3180f82d4dcea1e6e8c5648473539a910d7f49",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "film-fuji-velvia-50",
+    "name": "Fuji Velvia 50",
+    "category": "Film argentique",
+    "pack": "Film argentique · HaldCLUT",
+    "description": "Simulation argentique sRGB · collection RawTherapee / cedeber.",
+    "settings": {
+      "intensity": 100
+    },
+    "lutName": "Fuji Velvia 50 · HaldCLUT",
+    "lutPath": "assets/luts/film/film-fuji-velvia-50.bin",
+    "lutSize": 33,
+    "source": "https://raw.githubusercontent.com/cedeber/hald-clut/3b3180f82d4dcea1e6e8c5648473539a910d7f49/HaldCLUT/Film%20Simulation/Color/Fuji/Fuji%20Velvia%2050.png",
+    "sourceCommit": "3b3180f82d4dcea1e6e8c5648473539a910d7f49",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "film-kodak-ektar-100",
+    "name": "Kodak Ektar 100",
+    "category": "Film argentique",
+    "pack": "Film argentique · HaldCLUT",
+    "description": "Simulation argentique sRGB · collection RawTherapee / cedeber.",
+    "settings": {
+      "intensity": 100
+    },
+    "lutName": "Kodak Ektar 100 · HaldCLUT",
+    "lutPath": "assets/luts/film/film-kodak-ektar-100.bin",
+    "lutSize": 33,
+    "source": "https://raw.githubusercontent.com/cedeber/hald-clut/3b3180f82d4dcea1e6e8c5648473539a910d7f49/HaldCLUT/Film%20Simulation/Color/Kodak/Kodak%20Ektar%20100.png",
+    "sourceCommit": "3b3180f82d4dcea1e6e8c5648473539a910d7f49",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "film-kodak-ektachrome-100-vs",
+    "name": "Kodak Ektachrome 100 VS",
+    "category": "Film argentique",
+    "pack": "Film argentique · HaldCLUT",
+    "description": "Simulation argentique sRGB · collection RawTherapee / cedeber.",
+    "settings": {
+      "intensity": 100
+    },
+    "lutName": "Kodak Ektachrome 100 VS · HaldCLUT",
+    "lutPath": "assets/luts/film/film-kodak-ektachrome-100-vs.bin",
+    "lutSize": 33,
+    "source": "https://raw.githubusercontent.com/cedeber/hald-clut/3b3180f82d4dcea1e6e8c5648473539a910d7f49/HaldCLUT/Film%20Simulation/Color/Kodak/Kodak%20Ektachrome%20100%20VS.png",
+    "sourceCommit": "3b3180f82d4dcea1e6e8c5648473539a910d7f49",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "film-kodak-kodachrome-25",
+    "name": "Kodak Kodachrome 25",
+    "category": "Film argentique",
+    "pack": "Film argentique · HaldCLUT",
+    "description": "Simulation argentique sRGB · collection RawTherapee / cedeber.",
+    "settings": {
+      "intensity": 100
+    },
+    "lutName": "Kodak Kodachrome 25 · HaldCLUT",
+    "lutPath": "assets/luts/film/film-kodak-kodachrome-25.bin",
+    "lutSize": 33,
+    "source": "https://raw.githubusercontent.com/cedeber/hald-clut/3b3180f82d4dcea1e6e8c5648473539a910d7f49/HaldCLUT/Film%20Simulation/Color/Kodak/Kodak%20Kodachrome%2025.png",
+    "sourceCommit": "3b3180f82d4dcea1e6e8c5648473539a910d7f49",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "film-kodak-kodachrome-64",
+    "name": "Kodak Kodachrome 64",
+    "category": "Film argentique",
+    "pack": "Film argentique · HaldCLUT",
+    "description": "Simulation argentique sRGB · collection RawTherapee / cedeber.",
+    "settings": {
+      "intensity": 100
+    },
+    "lutName": "Kodak Kodachrome 64 · HaldCLUT",
+    "lutPath": "assets/luts/film/film-kodak-kodachrome-64.bin",
+    "lutSize": 33,
+    "source": "https://raw.githubusercontent.com/cedeber/hald-clut/3b3180f82d4dcea1e6e8c5648473539a910d7f49/HaldCLUT/Film%20Simulation/Color/Kodak/Kodak%20Kodachrome%2064.png",
+    "sourceCommit": "3b3180f82d4dcea1e6e8c5648473539a910d7f49",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "film-kodak-portra-160-nc",
+    "name": "Kodak Portra 160 NC",
+    "category": "Film argentique",
+    "pack": "Film argentique · HaldCLUT",
+    "description": "Simulation argentique sRGB · collection RawTherapee / cedeber.",
+    "settings": {
+      "intensity": 100
+    },
+    "lutName": "Kodak Portra 160 NC · HaldCLUT",
+    "lutPath": "assets/luts/film/film-kodak-portra-160-nc.bin",
+    "lutSize": 33,
+    "source": "https://raw.githubusercontent.com/cedeber/hald-clut/3b3180f82d4dcea1e6e8c5648473539a910d7f49/HaldCLUT/Film%20Simulation/Color/Kodak/Kodak%20Portra%20160%20NC%202.png",
+    "sourceCommit": "3b3180f82d4dcea1e6e8c5648473539a910d7f49",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "film-kodak-portra-400",
+    "name": "Kodak Portra 400",
+    "category": "Film argentique",
+    "pack": "Film argentique · HaldCLUT",
+    "description": "Simulation argentique sRGB · collection RawTherapee / cedeber.",
+    "settings": {
+      "intensity": 100
+    },
+    "lutName": "Kodak Portra 400 · HaldCLUT",
+    "lutPath": "assets/luts/film/film-kodak-portra-400.bin",
+    "lutSize": 33,
+    "source": "https://raw.githubusercontent.com/cedeber/hald-clut/3b3180f82d4dcea1e6e8c5648473539a910d7f49/HaldCLUT/Film%20Simulation/Color/Kodak/Kodak%20Portra%20400%202.png",
+    "sourceCommit": "3b3180f82d4dcea1e6e8c5648473539a910d7f49",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "film-kodak-portra-800",
+    "name": "Kodak Portra 800",
+    "category": "Film argentique",
+    "pack": "Film argentique · HaldCLUT",
+    "description": "Simulation argentique sRGB · collection RawTherapee / cedeber.",
+    "settings": {
+      "intensity": 100
+    },
+    "lutName": "Kodak Portra 800 · HaldCLUT",
+    "lutPath": "assets/luts/film/film-kodak-portra-800.bin",
+    "lutSize": 33,
+    "source": "https://raw.githubusercontent.com/cedeber/hald-clut/3b3180f82d4dcea1e6e8c5648473539a910d7f49/HaldCLUT/Film%20Simulation/Color/Kodak/Kodak%20Portra%20800%202.png",
+    "sourceCommit": "3b3180f82d4dcea1e6e8c5648473539a910d7f49",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "film-kodak-elite-chrome-200",
+    "name": "Kodak Elite Chrome 200",
+    "category": "Film argentique",
+    "pack": "Film argentique · HaldCLUT",
+    "description": "Simulation argentique sRGB · collection RawTherapee / cedeber.",
+    "settings": {
+      "intensity": 100
+    },
+    "lutName": "Kodak Elite Chrome 200 · HaldCLUT",
+    "lutPath": "assets/luts/film/film-kodak-elite-chrome-200.bin",
+    "lutSize": 33,
+    "source": "https://raw.githubusercontent.com/cedeber/hald-clut/3b3180f82d4dcea1e6e8c5648473539a910d7f49/HaldCLUT/Film%20Simulation/Color/Kodak/Kodak%20Elite%20Chrome%20200.png",
+    "sourceCommit": "3b3180f82d4dcea1e6e8c5648473539a910d7f49",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "film-kodak-elite-color-400",
+    "name": "Kodak Elite Color 400",
+    "category": "Film argentique",
+    "pack": "Film argentique · HaldCLUT",
+    "description": "Simulation argentique sRGB · collection RawTherapee / cedeber.",
+    "settings": {
+      "intensity": 100
+    },
+    "lutName": "Kodak Elite Color 400 · HaldCLUT",
+    "lutPath": "assets/luts/film/film-kodak-elite-color-400.bin",
+    "lutSize": 33,
+    "source": "https://raw.githubusercontent.com/cedeber/hald-clut/3b3180f82d4dcea1e6e8c5648473539a910d7f49/HaldCLUT/Film%20Simulation/Color/Kodak/Kodak%20Elite%20Color%20400.png",
+    "sourceCommit": "3b3180f82d4dcea1e6e8c5648473539a910d7f49",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "film-fuji-sensia-100",
+    "name": "Fuji Sensia 100",
+    "category": "Film argentique",
+    "pack": "Film argentique · HaldCLUT",
+    "description": "Simulation argentique sRGB · collection RawTherapee / cedeber.",
+    "settings": {
+      "intensity": 100
+    },
+    "lutName": "Fuji Sensia 100 · HaldCLUT",
+    "lutPath": "assets/luts/film/film-fuji-sensia-100.bin",
+    "lutSize": 33,
+    "source": "https://raw.githubusercontent.com/cedeber/hald-clut/3b3180f82d4dcea1e6e8c5648473539a910d7f49/HaldCLUT/Film%20Simulation/Color/Fuji/Fuji%20Sensia%20100.png",
+    "sourceCommit": "3b3180f82d4dcea1e6e8c5648473539a910d7f49",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "film-agfa-apx-100",
+    "name": "Agfa APX 100",
+    "category": "Film argentique",
+    "pack": "Film argentique · HaldCLUT",
+    "description": "Simulation argentique sRGB · collection RawTherapee / cedeber.",
+    "settings": {
+      "intensity": 100
+    },
+    "lutName": "Agfa APX 100 · HaldCLUT",
+    "lutPath": "assets/luts/film/film-agfa-apx-100.bin",
+    "lutSize": 33,
+    "source": "https://raw.githubusercontent.com/cedeber/hald-clut/3b3180f82d4dcea1e6e8c5648473539a910d7f49/HaldCLUT/Film%20Simulation/Black%20and%20White/Agfa/Agfa%20APX%20100.png",
+    "sourceCommit": "3b3180f82d4dcea1e6e8c5648473539a910d7f49",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "film-fuji-neopan-acros-100",
+    "name": "Fuji Neopan Acros 100",
+    "category": "Film argentique",
+    "pack": "Film argentique · HaldCLUT",
+    "description": "Simulation argentique sRGB · collection RawTherapee / cedeber.",
+    "settings": {
+      "intensity": 100
+    },
+    "lutName": "Fuji Neopan Acros 100 · HaldCLUT",
+    "lutPath": "assets/luts/film/film-fuji-neopan-acros-100.bin",
+    "lutSize": 33,
+    "source": "https://raw.githubusercontent.com/cedeber/hald-clut/3b3180f82d4dcea1e6e8c5648473539a910d7f49/HaldCLUT/Film%20Simulation/Black%20and%20White/Fuji/Fuji%20Neopan%20Acros%20100.png",
+    "sourceCommit": "3b3180f82d4dcea1e6e8c5648473539a910d7f49",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "film-ilford-delta-100",
+    "name": "Ilford Delta 100",
+    "category": "Film argentique",
+    "pack": "Film argentique · HaldCLUT",
+    "description": "Simulation argentique sRGB · collection RawTherapee / cedeber.",
+    "settings": {
+      "intensity": 100
+    },
+    "lutName": "Ilford Delta 100 · HaldCLUT",
+    "lutPath": "assets/luts/film/film-ilford-delta-100.bin",
+    "lutSize": 33,
+    "source": "https://raw.githubusercontent.com/cedeber/hald-clut/3b3180f82d4dcea1e6e8c5648473539a910d7f49/HaldCLUT/Film%20Simulation/Black%20and%20White/Ilford/Ilford%20Delta%20100.png",
+    "sourceCommit": "3b3180f82d4dcea1e6e8c5648473539a910d7f49",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "film-ilford-hp5-plus-400",
+    "name": "Ilford HP5 Plus 400",
+    "category": "Film argentique",
+    "pack": "Film argentique · HaldCLUT",
+    "description": "Simulation argentique sRGB · collection RawTherapee / cedeber.",
+    "settings": {
+      "intensity": 100
+    },
+    "lutName": "Ilford HP5 Plus 400 · HaldCLUT",
+    "lutPath": "assets/luts/film/film-ilford-hp5-plus-400.bin",
+    "lutSize": 33,
+    "source": "https://raw.githubusercontent.com/cedeber/hald-clut/3b3180f82d4dcea1e6e8c5648473539a910d7f49/HaldCLUT/Film%20Simulation/Black%20and%20White/Ilford/Ilford%20HP5%20Plus%20400.png",
+    "sourceCommit": "3b3180f82d4dcea1e6e8c5648473539a910d7f49",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "film-kodak-t-max-100",
+    "name": "Kodak T-Max 100",
+    "category": "Film argentique",
+    "pack": "Film argentique · HaldCLUT",
+    "description": "Simulation argentique sRGB · collection RawTherapee / cedeber.",
+    "settings": {
+      "intensity": 100
+    },
+    "lutName": "Kodak T-Max 100 · HaldCLUT",
+    "lutPath": "assets/luts/film/film-kodak-t-max-100.bin",
+    "lutSize": 33,
+    "source": "https://raw.githubusercontent.com/cedeber/hald-clut/3b3180f82d4dcea1e6e8c5648473539a910d7f49/HaldCLUT/Film%20Simulation/Black%20and%20White/Kodak/Kodak%20T-Max%20100.png",
+    "sourceCommit": "3b3180f82d4dcea1e6e8c5648473539a910d7f49",
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "film-kodak-t-max-400",
+    "name": "Kodak T-Max 400",
+    "category": "Film argentique",
+    "pack": "Film argentique · HaldCLUT",
+    "description": "Simulation argentique sRGB · collection RawTherapee / cedeber.",
+    "settings": {
+      "intensity": 100
+    },
+    "lutName": "Kodak T-Max 400 · HaldCLUT",
+    "lutPath": "assets/luts/film/film-kodak-t-max-400.bin",
+    "lutSize": 33,
+    "source": "https://raw.githubusercontent.com/cedeber/hald-clut/3b3180f82d4dcea1e6e8c5648473539a910d7f49/HaldCLUT/Film%20Simulation/Black%20and%20White/Kodak/Kodak%20T-Max%20400.png",
+    "sourceCommit": "3b3180f82d4dcea1e6e8c5648473539a910d7f49",
+    "license": "CC-BY-SA-4.0"
+  }
+]

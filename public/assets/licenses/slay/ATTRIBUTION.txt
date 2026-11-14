@@ -1,0 +1,3 @@
+LUTs: slay — https://www.slaycamera.com/ — CC BY 4.0
+Original repository: https://github.com/slaycamera/luts
+Lossless binary packaging by LumiLooks. When publishing work using these LUTs, credit slay as requested by the original creator.
