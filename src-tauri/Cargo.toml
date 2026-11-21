@@ -1,6 +1,6 @@
 [package]
 name = "lumilooks"
-version = "2.0.0"
+version = "2.0.1"
 description = "LumiLooks — studio de looks et d'étalonnage photo et vidéo par LuminosWeb"
 authors = ["LuminosWeb"]
 license = "MIT"
