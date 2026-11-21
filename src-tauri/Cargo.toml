@@ -26,6 +26,8 @@ uuid = { version = "1", features = ["v4"] }
 regex = "1"
 flate2 = "1"
 percent-encoding = "2"
+ureq = { version = "2", default-features = false, features = ["tls", "proxy-from-env"] }
+sha2 = "0.10"
 
 [profile.release]
 codegen-units = 1

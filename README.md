@@ -84,6 +84,7 @@ Aucun compte, aucun abonnement, aucun filigrane. Vos médias restent sur votre o
 - **React 19** + **TypeScript** + **Vite** pour l’interface, **zustand** pour l’état.
 - **WebGL 2** : moteur couleur multi-passes partagé par l’aperçu, les vignettes et l’export (étalonnage, LUT 3D, pyramide de flou pour la diffusion, passes anamorphiques).
 - **FFmpeg** (sidecar statique) pour l’analyse, le décodage et l’encodage vidéo ; les images sont étalonnées par le GPU puis encodées.
+  Si le FFmpeg fourni est absent ou ne démarre pas, LumiLooks télécharge au premier lancement la version statique officielle pour Windows, macOS ou Linux (empreinte SHA-256 vérifiée) dans son dossier de données ; hors ligne, un FFmpeg déjà installé sur l’ordinateur est utilisé.
 - Les médias sont servis à l’interface par un petit serveur privé sur `127.0.0.1` (requêtes partielles, jeton aléatoire par session).
 
 ## Développement
@@ -92,7 +93,7 @@ Prérequis : [Node.js 22](https://nodejs.org), [Rust stable](https://rustup.rs) 
 
 ```bash
 npm ci
-npm run ffmpeg          # télécharge FFmpeg statique pour votre plateforme (src-tauri/binaries/)
+npm run ffmpeg          # télécharge FFmpeg statique pour votre plateforme (src-tauri/binaries/) — fait automatiquement au premier build
 npm run tauri dev       # application de bureau en mode développement
 npm run tauri build     # installateurs dans src-tauri/target/release/bundle/
 ```

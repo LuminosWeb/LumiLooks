@@ -8,6 +8,7 @@ import { ControlsPanel } from './components/ControlsPanel';
 import { ChainPanel } from './components/ChainPanel';
 import { ExportDialog } from './components/ExportDialog';
 import { HelpDialog, NameDialog, Toast } from './components/Dialogs';
+import { FfmpegDialog } from './components/FfmpegSetup';
 import { closePopups } from './components/ui/controls';
 import { showExport } from './components/exportController';
 import { useStore, getState, setState, activeFile } from './state/store';
@@ -117,6 +118,7 @@ export default function App() {
       <ExportDialog />
       <NameDialog />
       <HelpDialog />
+      <FfmpegDialog />
       <Toast />
     </>
   );

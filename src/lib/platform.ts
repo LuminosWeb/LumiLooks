@@ -77,6 +77,16 @@ export const saveProject = (path: string, project: unknown) => invoke<void>('sav
 export const openProject = async (path: string) => { await initMediaServer(); return openProjectRaw(path); };
 const openProjectRaw = (path: string) => invoke<{ name: string; active: number; files: (Omit<ImportedMedia, 'url'> & Record<string, unknown>)[]; errors: string[] }>('open_project', { path });
 
+/* FFmpeg is bundled; when it is missing or does not start, the backend downloads a verified copy once. */
+export interface FfmpegStatus { ready: boolean; source: 'override' | 'bundled' | 'installed' | 'system' | 'missing'; path?: string; installable: boolean }
+export interface FfmpegProgress { stage: 'download' | 'verify' | 'install' | 'done'; downloaded: number; total: number }
+export const ffmpegStatus = () => invoke<FfmpegStatus>('ffmpeg_status');
+export async function installFfmpeg(onProgress: (progress: FfmpegProgress) => void) {
+  const { listen } = await import('@tauri-apps/api/event');
+  const unlisten = await listen<FfmpegProgress>('ffmpeg-install', (event) => onProgress(event.payload));
+  try { return await invoke<FfmpegStatus>('ffmpeg_install'); } finally { unlisten(); }
+}
+
 export const detectEncoders = (opts: { format: string; width: number; height: number; fps: number }) => invoke<EncoderSupport>('detect_encoders', { opts });
 export interface VideoExportOptions {
   id: string; output: string; start: number; end: number; speed: number; volume: number; audio: boolean; rotation: number; aspect: string;

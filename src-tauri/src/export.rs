@@ -307,7 +307,7 @@ fn start_blocking(app: &AppHandle, opts: ExportOptions) -> Result<ExportInfo, St
     encode_args.extend(format.options.iter().map(|s| s.to_string()));
     encode_args.extend(["-t".into(), duration_out.to_string(), "-metadata:s:v:0".into(), "rotate=0".into(), "-f".into(), format.muxer.into(), temp.to_string_lossy().to_string()]);
 
-    let mut decoder = command().args(&decode_args).stdin(Stdio::null()).stdout(Stdio::piped()).stderr(Stdio::piped()).spawn().map_err(|e| format!("Décodage impossible : {e}"))?;
+    let mut decoder = command().args(&decode_args).stdin(Stdio::null()).stdout(Stdio::piped()).stderr(Stdio::piped()).spawn().map_err(crate::ffmpeg::unavailable)?;
     let mut encoder = match command().args(&encode_args).stdin(Stdio::piped()).stdout(Stdio::null()).stderr(Stdio::piped()).spawn() {
         Ok(child) => child,
         Err(e) => {

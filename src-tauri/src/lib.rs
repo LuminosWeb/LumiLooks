@@ -2,6 +2,7 @@
 mod encoders;
 mod export;
 mod ffmpeg;
+mod ffmpeg_install;
 mod files;
 mod media;
 mod pdf;
@@ -31,12 +32,17 @@ pub fn run() {
         .manage(export::ExportState::default())
         .manage(encoders::EncoderCache::default())
         .setup(|app| {
+            if let Ok(dir) = app.path().app_local_data_dir() {
+                ffmpeg_install::set_data_dir(dir);
+            }
             let server = media::start_server(app.handle().clone())?;
             app.manage(server);
             Ok(())
         })
         .invoke_handler(tauri::generate_handler![
             platform_info,
+            ffmpeg_install::ffmpeg_status,
+            ffmpeg_install::ffmpeg_install,
             media::import_paths,
             media::media_path,
             media::media_server,

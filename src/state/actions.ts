@@ -6,6 +6,7 @@ import * as platform from '../lib/platform';
 import { activeFile, getState, newMediaFile, setState, toast, updateActive, updateFile, writeStored, type MediaFile, type Tab } from './store';
 import * as engine from '../engine/engine';
 import { adjustmentKeys } from '../components/panels/keys';
+import { ensureFfmpeg, ffmpegReady } from '../components/FfmpegSetup';
 
 /* ---------- Generic helpers ---------- */
 export async function attempt<T>(fn: () => Promise<T> | T): Promise<T | undefined> {
@@ -32,6 +33,7 @@ export function resolvePrompt(value: string | null) {
 export async function init() {
   applyTheme(getState().theme);
   if (platform.isTauri) platform.initMediaServer().catch((error) => toast(String(error), true));
+  void ensureFfmpeg();
   try { setState({ bundled: await loadBundledPresets() }); } catch (error) { toast((error as Error).message, true); }
   setState({ ready: true });
 }
@@ -85,6 +87,7 @@ export async function importMedia() {
   }
 }
 export async function importPaths(paths: string[]) {
+  if (paths.some((path) => platform.videoExtensions.includes(path.split('.').pop()?.toLowerCase() || ''))) await ffmpegReady();
   const result = await platform.importPaths(paths);
   await addImported(result.files);
   if (result.errors.length) toast(result.errors.join(' · '), true);

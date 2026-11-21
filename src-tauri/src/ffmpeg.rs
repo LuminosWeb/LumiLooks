@@ -4,26 +4,56 @@ use serde::Serialize;
 use std::io::Read;
 use std::path::{Path, PathBuf};
 use std::process::{Command, Stdio};
-use std::sync::OnceLock;
+use std::sync::{OnceLock, RwLock};
 use std::time::{Duration, Instant};
 
-/// The bundled FFmpeg (`externalBin`) sits next to the executable. `LUMILOOKS_FFMPEG` overrides it for tests.
+pub fn exe_name() -> &'static str {
+    if cfg!(windows) { "ffmpeg.exe" } else { "ffmpeg" }
+}
+
+/// `LUMILOOKS_FFMPEG` overrides every other location (tests, custom builds).
+pub fn override_path() -> Option<PathBuf> {
+    std::env::var_os("LUMILOOKS_FFMPEG").filter(|p| !p.is_empty()).map(PathBuf::from)
+}
+
+/// The bundled FFmpeg (`externalBin`) sits next to the executable.
+pub fn bundled_path() -> Option<PathBuf> {
+    let exe = std::env::current_exe().ok()?;
+    let candidate = exe.parent()?.join(exe_name());
+    candidate.is_file().then_some(candidate)
+}
+
+/// Working binary chosen at startup by `ffmpeg_install` (bundled, downloaded or system copy).
+static RESOLVED: RwLock<Option<PathBuf>> = RwLock::new(None);
+static MISSING: std::sync::atomic::AtomicBool = std::sync::atomic::AtomicBool::new(false);
+
+pub fn set_resolved(path: PathBuf) {
+    *RESOLVED.write().unwrap_or_else(|e| e.into_inner()) = Some(path);
+    MISSING.store(false, std::sync::atomic::Ordering::Relaxed);
+}
+
+/// Marks FFmpeg as being installed, so errors tell the user to wait instead of reinstalling.
+pub fn set_installing(on: bool) {
+    MISSING.store(on, std::sync::atomic::Ordering::Relaxed);
+}
+
 pub fn ffmpeg_path() -> PathBuf {
-    if let Ok(path) = std::env::var("LUMILOOKS_FFMPEG") {
-        if !path.is_empty() {
-            return PathBuf::from(path);
-        }
+    if let Some(path) = override_path() {
+        return path;
     }
-    let name = if cfg!(windows) { "ffmpeg.exe" } else { "ffmpeg" };
-    if let Ok(exe) = std::env::current_exe() {
-        if let Some(dir) = exe.parent() {
-            let candidate = dir.join(name);
-            if candidate.is_file() {
-                return candidate;
-            }
-        }
+    if let Some(path) = RESOLVED.read().unwrap_or_else(|e| e.into_inner()).clone() {
+        return path;
     }
-    PathBuf::from(name)
+    bundled_path().unwrap_or_else(|| PathBuf::from(exe_name()))
+}
+
+/// User-facing message when FFmpeg cannot be started.
+pub fn unavailable(error: impl std::fmt::Display) -> String {
+    if MISSING.load(std::sync::atomic::Ordering::Relaxed) {
+        "FFmpeg est en cours d’installation. Patientez quelques instants puis réessayez.".into()
+    } else {
+        format!("FFmpeg ne démarre pas ({error}). Redémarrez LumiLooks pour relancer son installation automatique.")
+    }
 }
 
 pub fn command() -> Command {
@@ -50,7 +80,7 @@ pub fn run_capture(args: &[String], timeout: Duration) -> Result<ProbeOutput, St
         .stdout(Stdio::null())
         .stderr(Stdio::piped())
         .spawn()
-        .map_err(|e| format!("FFmpeg est introuvable ou ne démarre pas ({e}). Réinstallez LumiLooks."))?;
+        .map_err(unavailable)?;
     let mut stderr = child.stderr.take().ok_or("Sortie FFmpeg indisponible.")?;
     let reader = std::thread::spawn(move || {
         let mut buffer = Vec::new();
